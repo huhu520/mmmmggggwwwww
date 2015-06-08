@@ -1,0 +1,147 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F9F9FB">
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="44dp"
+        android:background="@color/slowblue2" >
+
+        <ImageButton
+            android:id="@+id/ibBack"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/back" />
+
+        <Button
+            android:id="@+id/titleRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@color/transparent"
+            android:padding="3dip"
+            android:shadowColor="@color/black"
+            android:shadowDy="1"
+            android:shadowRadius="1"
+            android:textColor="@color/white" />
+
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+			<Button android:id="@+id/left"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:shadowColor="@color/black"
+	            android:shadowDy="1"
+	            android:shadowRadius="1"
+	            android:background="@drawable/btn_car"
+	            android:textColor="#404040" />
+			<Button android:id="@+id/mid"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:shadowColor="@color/black"
+	            android:shadowDy="1"
+	            android:shadowRadius="1"
+	            android:layout_marginLeft="10dip"
+	            android:background="@drawable/btn_public_car"
+	            android:textColor="#404040" />
+			<Button android:id="@+id/right"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:shadowColor="@color/black"
+	            android:shadowDy="1"
+	            android:shadowRadius="1"
+	            android:layout_marginLeft="10dip"
+	            android:background="@drawable/btn_walk"
+	            android:textColor="#404040" />
+        </LinearLayout>
+    </RelativeLayout>
+    
+    <RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.baidu.mapapi.map.MapView
+		    android:id="@+id/bmapView"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:clickable="true"/>
+            <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:orientation="vertical"
+        android:padding="10dip"
+        android:background="@drawable/corner">
+        
+        <TextView android:id="@+id/distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#404040"
+            android:textSize="16sp"/>
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dip">
+            <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#CCCCCC"
+            android:text="打车约"
+            android:textSize="14sp"/>
+            <TextView android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#EA8D32"
+            android:gravity="center" 
+            android:layout_marginLeft="2dip"
+            android:textSize="14sp"/>
+            <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dip"
+            android:textColor="#CCCCCC"
+            android:text="元"
+            android:textSize="14sp"/>
+        </LinearLayout>
+         <TextView android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="#CCCCCC"
+            android:layout_marginTop="5dip"/>
+         <LinearLayout android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="5dip">
+            <ImageView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dip"
+                android:background="@drawable/easy_loc"/>
+             <TextView android:id="@+id/add"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="4"
+	            android:textColor="#404040"
+	            android:textSize="16sp"
+	            android:gravity="center_vertical"/>
+             <TextView android:layout_width="1px"
+	            android:layout_height="fill_parent"
+	            android:background="#CCCCCC"
+	            android:layout_marginTop="5dip"/>
+             <!-- 
+             <TextView android:id="@+id/call"
+                 android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="5"
+	            android:textColor="#404040"
+	            android:textSize="16sp"
+	            android:gravity="center_vertical"
+	            android:drawableLeft="@drawable/easy_call"
+	            android:paddingLeft="10dip"
+	            android:text="马上联系"/> -->
+         </LinearLayout>
+    </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

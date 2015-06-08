@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/mgwAndroid/!svn/ver/159/membertest/MgwMember/src/com/mgw/member/uitls
+END
+NetworkProber.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/mgwAndroid/!svn/ver/129/membertest/MgwMember/src/com/mgw/member/uitls/NetworkProber.java
+END
+UnZipFiles.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/mgw/member/uitls/UnZipFiles.java
+END
+LogUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/mgwAndroid/!svn/ver/148/membertest/MgwMember/src/com/mgw/member/uitls/LogUtils.java
+END
+AppManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/mgwAndroid/!svn/ver/108/membertest/MgwMember/src/com/mgw/member/uitls/AppManager.java
+END
+ViewUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/mgw/member/uitls/ViewUtils.java
+END
+PackageUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/mgwAndroid/!svn/ver/159/membertest/MgwMember/src/com/mgw/member/uitls/PackageUtils.java
+END
+IOUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/mgw/member/uitls/IOUtils.java
+END
+WebJsUitl.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/mgw/member/uitls/WebJsUitl.java
+END
+MgqDataHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/mgwAndroid/!svn/ver/160/membertest/MgwMember/src/com/mgw/member/uitls/MgqDataHandler.java
+END
+PreferenceHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/mgwAndroid/!svn/ver/146/membertest/MgwMember/src/com/mgw/member/uitls/PreferenceHelper.java
+END
+DialogUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/mgwAndroid/!svn/ver/102/membertest/MgwMember/src/com/mgw/member/uitls/DialogUtils.java
+END
+DBLoad.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/mgwAndroid/!svn/ver/105/membertest/MgwMember/src/com/mgw/member/uitls/DBLoad.java
+END
+LocalUserInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/mgwAndroid/!svn/ver/149/membertest/MgwMember/src/com/mgw/member/uitls/LocalUserInfo.java
+END
+ZipUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/mgwAndroid/!svn/ver/128/membertest/MgwMember/src/com/mgw/member/uitls/ZipUtil.java
+END
+SystemUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/mgwAndroid/!svn/ver/105/membertest/MgwMember/src/com/mgw/member/uitls/SystemUtils.java
+END
+StringUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/mgwAndroid/!svn/ver/146/membertest/MgwMember/src/com/mgw/member/uitls/StringUtils.java
+END
+DBControl.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/mgwAndroid/!svn/ver/102/membertest/MgwMember/src/com/mgw/member/uitls/DBControl.java
+END
+HomeWatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/mgwAndroid/!svn/ver/135/membertest/MgwMember/src/com/mgw/member/uitls/HomeWatcher.java
+END
+UIUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/mgw/member/uitls/UIUtils.java
+END
+ImageLoaderHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/mgwAndroid/!svn/ver/108/membertest/MgwMember/src/com/mgw/member/uitls/ImageLoaderHelper.java
+END
+PreferenceUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/mgwAndroid/!svn/ver/140/membertest/MgwMember/src/com/mgw/member/uitls/PreferenceUtils.java
+END
+MgqRestClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/mgw/member/uitls/MgqRestClient.java
+END
+FileUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/mgwAndroid/!svn/ver/140/membertest/MgwMember/src/com/mgw/member/uitls/FileUtils.java
+END
+DrawableUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/mgwAndroid/!svn/ver/102/membertest/MgwMember/src/com/mgw/member/uitls/DrawableUtils.java
+END
+Utils.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/mgwAndroid/!svn/ver/159/membertest/MgwMember/src/com/mgw/member/uitls/Utils.java
+END
+DiscountDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/mgwAndroid/!svn/ver/102/membertest/MgwMember/src/com/mgw/member/uitls/DiscountDao.java
+END
+InputTools.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/mgwAndroid/!svn/ver/140/membertest/MgwMember/src/com/mgw/member/uitls/InputTools.java
+END

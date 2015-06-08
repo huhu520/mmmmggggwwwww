@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="10dp">
+
+    <ImageView android:id="@+id/iv_item_home_list"
+        android:layout_width="75dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dip"
+        android:scaleType="centerCrop"
+		android:src="@drawable/img_loading" />
+    
+    <LinearLayout android:layout_toRightOf="@id/iv_item_home_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp">
+        
+        <RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView android:id="@+id/tv_item_home_distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:drawableLeft="@drawable/ic_loc_1"
+                android:layout_marginRight="10dp"
+                android:textColor="#A0A0A0"
+                android:textSize="12sp" />
+            <TextView android:id="@+id/tv_item_home_list_shopname"
+                android:layout_toLeftOf="@id/tv_item_home_distance"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="费洛KTV"
+                android:textColor="#404040"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+        
+        <TextView android:id="@+id/tv_item_home_list_option"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:layout_marginRight="10dp"
+            android:text="费罗KTV是一个装修时尚，精美舒适的KTV"
+            android:textSize="14sp"/>
+
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp">
+            <include layout="@layout/youhui_card" />
+            <TextView android:id="@+id/tv_item_home_list_count"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="已售 125"
+                android:textColor="#A0A0A0"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+	<View android:layout_below="@id/iv_item_home_list"
+		android:layout_width="fill_parent"
+        android:layout_height="1px"
+	    android:background="@color/linegrey"
+	    android:layout_marginTop="10dp" />
+</RelativeLayout>

@@ -1,0 +1,169 @@
+10
+
+dir
+159
+https://ydxz-02714a9ef7/svn/mgwAndroid/membertest/MgwMember/src/com/hx/hxchat
+https://ydxz-02714a9ef7/svn/mgwAndroid
+
+
+
+2015-06-02T06:36:34.948250Z
+159
+hy
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+76d376e9-2809-614f-afc6-ee7041a22ad6
+
+Constant.java
+file
+
+
+
+
+2015-05-18T07:35:06.155000Z
+cc9955f5254c39e0fcabcab501f763a8
+2015-05-23T09:49:01.515625Z
+157
+hy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1124
+
+MGWHXSDKHelper.java
+file
+
+
+
+
+2015-05-22T07:15:33.410000Z
+3515f5af30b8bfe5f2a5fe42671caecc
+2015-05-23T09:49:01.515625Z
+157
+hy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7246
+
+MGWHXSDKModel.java
+file
+
+
+
+
+2015-05-15T03:29:24.874000Z
+c57c74864e80260de97ef06a76ead2ea
+2015-05-15T10:04:38.484375Z
+149
+hy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2214
+
+activity
+dir
+
+adapter
+dir
+
+db
+dir
+
+domain
+dir
+
+fragment
+dir
+
+holder
+dir
+
+interfaces
+dir
+
+otto
+dir
+
+receiver
+dir
+
+task
+dir
+
+utils
+dir
+
+video
+dir
+
+widget
+dir
+

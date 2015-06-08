@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bg_window">#ffe5e5e5</color>
+    <color name="bg_page">#ffe5e5e5</color>
+    <color name="bg_tab_pressed">#6633b5e5</color>
+    <color name="bg_tab_pressed2">#ff3898ff</color>
+    <!-- 蓝色 -->
+
+    <color name="txt_title">#ff333333</color>
+    <color name="txt_small">#ff7a7a7a</color>
+    <color name="txt_big">#ff717171</color>
+    <color name="item_divider">#ffd7d7d7</color>
+    <color name="detail_screen_bg">#adadad</color>
+    <color name="progress">#0294f0</color>
+    <color name="menu_bg_normal">#f0f1f3</color>
+    <color name="menu_bg_press">#cecece</color>
+    <color name="grid_state_pressed2">#BB7dbcd3</color>
+    <color name="grid_state_focused2">#777dbcd3</color>
+    <color name="tab_show_bg">#383a4d</color>
+    <color name="translucent_00">#00000000</color>
+    <color name="translucent_20">#20000000</color>
+    <color name="translucent_70">#70000000</color>
+    <color name="black">#404040</color>
+    <!-- 黑色 -->
+    <color name="white">#ffffff</color>
+    <!-- 白色 -->
+    <color name="white2">#F9F9F9</color>
+    <!-- 浅白色 -->
+    <color name="blue">#0000ff</color>
+    <!-- 蓝色 -->
+    <color name="yellow">#ffff00</color>
+    <!-- 黄色 -->
+    <color name="snow">#fffafa</color>
+    <!-- 雪白色 -->
+    <color name="darkgray">#808080</color>
+    <!-- 深灰色 -->
+    <color name="darkgray1">#626262</color>
+    <!-- 深灰色 -->
+    <color name="languagegray">#A0A0A0</color>
+    <!-- 字体灰色 -->
+    <color name="languagegray2">#666666</color>
+    <!-- 字体灰色2 -->
+    <color name="languagegray3">#32B9AA</color>
+    <!-- 字体淡蓝色3 -->
+    <color name="languagegray4">#A5A5A5</color>
+    <!-- 字体灰色4 -->
+    <color name="languagegray5">#CDCDCD</color>
+    <!-- 字体灰色5 -->
+    <color name="slowdarkgray">#EFEBEB</color>
+    <color name="mintcream">#F5FFFA</color>
+    <!-- 薄荷色 -->
+    <color name="lightblue">#ADD8E6</color>
+    <!-- 亮蓝色 -->
+    <color name="moreblue">#4EBCD2</color>
+    <!-- 深蓝色 -->
+    <color name="red">#FF0000</color>
+    <!-- 红色 -->
+    <color name="bglanse">#30A1F9</color>
+    <color name="slowblue">#0197C7</color>
+    <!-- 淡蓝色 -->
+    <color name="slowgreen">#32B9AA</color>
+    <!-- 浅绿色 -->
+    <color name="lighegreen">#0F9C00</color>
+    <!-- 绿色 -->
+    <color name="green">#6BB010</color>
+    <!-- 绿色2 -->
+    <color name="moregreen">#70B23E</color>
+    <!-- 深绿 -->
+    <color name="slowblue2">#4EBCD2</color>
+    <!-- 淡蓝色2项目 -->
+
+    <color name="lightyellow">#EB9230</color>
+    <!-- 深黄色 -->
+    <color name="orange2">#FF8E35</color>
+    <!-- 橙色 -->
+    <color name="sloworange">#AA7711</color>
+    <!-- 浅黄 -->
+    <color name="bg">#EEEEEE</color>
+    <!-- 界面背景 -->
+    <color name="bg2">#f0efed</color>
+    <!-- 界面背景2 -->
+    <color name="bg3">#F0EFED</color>
+    <!-- 界面背景3 -->
+    <color name="linegrey">#e0e0e0</color>
+    <!-- 灰线 -->
+
+
+    <!-- hx -->
+    <color name="lightwhite">#fff</color>
+
+    <!-- zxing -->
+    <color name="bg_color">#EDEDED</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="help_button_view">#ffcccccc</color>
+    <color name="help_view">#ff404040</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_image_border">#ffffffff</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="sbc_header_text">#ff808080</color>
+    <color name="sbc_header_view">#ffffffff</color>
+    <color name="sbc_list_item">#fffff0e0</color>
+    <color name="sbc_layout_view">#ffffffff</color>
+    <color name="sbc_page_number_text">#ff000000</color>
+    <color name="sbc_snippet_text">#ff4b4b4b</color>
+    <color name="share_text">#ff000000</color>
+    <color name="share_view">#ffffffff</color>
+    <color name="status_view">#50000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="header">#58567D</color>
+    <color name="grgray">#686868</color>
+
+    <!-- huanxing part -->
+    <color name="common_top_bar_blue">#4ebcd3</color>
+    <color name="btn_login_normal">#007086</color>
+    <color name="btn_login_pressed">#303744</color>
+    <color name="btn_logout_normal">#d33f3f</color>
+    <color name="btn_logout_pressed">#DA5A4D</color>
+    <color name="btn_register_normal">#2dafa3</color>
+    <color name="btn_register_pressed">#4ebcd3</color>
+    <color name="common_bottom_bar_normal_bg">#2d2f31</color>
+    <color name="common_bottom_bar_selected_bg">#161718</color>
+    <color name="common_botton_bar_blue">#2ea7e0</color>
+    <color name="common_bg">#fcfcfc</color>
+    <color name="btn_pressed_green_solid">#B6DA53</color>
+    <color name="divider_list">#cccccc</color>
+    <color name="top_bar_normal_bg">#4ebcd3</color>
+    <color name="error_item_color">#F6EBE6</color>
+    <color name="bottom_bar_normal_bg">#2D2F31</color>
+    <color name="bottom_text_color_normal">#ffffff</color>
+    <color name="btn_white_normal">#f7f8f8</color>
+    <color name="btn_white_pressed">#b5b5b6</color>
+    <color name="btn_green_noraml">#68C270</color>
+    <color name="btn_green_pressed">#6FCD78</color>
+    <color name="btn_gray_normal">#c0c0c0</color>
+    <color name="btn_gray_pressed_status">#b5b5b6</color>
+    <color name="btn_gray_pressed">#666667</color>
+    <color name="btn_blue_normal">#1e90ff</color>
+    <color name="btn_blue_pressed">#0066FF</color>
+    <color name="orange">#FFA500</color>
+    <color name="gray_pressed">#b5b5b6</color>
+    <color name="gray_normal">#666667</color>
+    <color name="grid_state_pressed">#1Affffff</color>
+    <color name="grid_state_focused">#80000000</color>
+    <color name="voip_interface_text_color">#bababa</color>
+    <color name="black_deep">#FF000000</color>
+
+</resources>

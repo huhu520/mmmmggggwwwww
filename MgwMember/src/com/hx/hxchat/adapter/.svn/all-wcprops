@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/mgwAndroid/!svn/ver/158/membertest/MgwMember/src/com/hx/hxchat/adapter
+END
+AddcontactAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/adapter/AddcontactAdapter.java
+END
+GroupAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/mgwAndroid/!svn/ver/160/membertest/MgwMember/src/com/hx/hxchat/adapter/GroupAdapter.java
+END
+ContactAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/mgwAndroid/!svn/ver/157/membertest/MgwMember/src/com/hx/hxchat/adapter/ContactAdapter.java
+END
+DefaultAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/mgwAndroid/!svn/ver/160/membertest/MgwMember/src/com/hx/hxchat/adapter/DefaultAdapter.java
+END
+ChooseVideoAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/adapter/ChooseVideoAdapter.java
+END
+MessageAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/mgwAndroid/!svn/ver/158/membertest/MgwMember/src/com/hx/hxchat/adapter/MessageAdapter.java
+END
+ChatHistoryAdapterCopy.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/mgwAndroid/!svn/ver/160/membertest/MgwMember/src/com/hx/hxchat/adapter/ChatHistoryAdapterCopy.java
+END
+ExpressionAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/adapter/ExpressionAdapter.java
+END
+VoicePlayClickListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/adapter/VoicePlayClickListener.java
+END
+GroupAdaptercopy.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/mgwAndroid/!svn/ver/160/membertest/MgwMember/src/com/hx/hxchat/adapter/GroupAdaptercopy.java
+END
+ExpressionPagerAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/adapter/ExpressionPagerAdapter.java
+END
+ChatAllHistoryAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/adapter/ChatAllHistoryAdapter.java
+END
+ChatHistoryAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/mgwAndroid/!svn/ver/160/membertest/MgwMember/src/com/hx/hxchat/adapter/ChatHistoryAdapter.java
+END
+NewFriendsMsgAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/mgwAndroid/!svn/ver/102/membertest/MgwMember/src/com/hx/hxchat/adapter/NewFriendsMsgAdapter.java
+END

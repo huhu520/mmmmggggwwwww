@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="44dip" >
+
+        <TextView
+            android:id="@+id/back"
+            android:layout_width="44dip"
+            android:layout_height="44dip"
+            android:layout_centerVertical="true"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="44dip"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="二维码扫描"
+            android:textColor="#ffffff"
+            android:textSize="18dip" />
+    </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <SurfaceView
+                android:id="@+id/preview_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:layout_centerInParent="true" />
+
+            <com.zxing.view.ViewfinderView
+                android:id="@+id/viewfinder_view"
+                android:layout_width="wrap_content"
+                   android:layout_centerInParent="true"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tishi_capture"
+                android:layout_width="fill_parent"
+                android:layout_height="20dp"
+                 android:gravity="center"
+              android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"
+                android:text="将二维码放入取景框内即可完成扫描！"
+                android:textColor="#ffd700" />
+        </RelativeLayout>
+
+
+</LinearLayout>

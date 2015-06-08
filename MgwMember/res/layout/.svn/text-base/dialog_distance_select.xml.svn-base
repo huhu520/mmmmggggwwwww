@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:padding="5dp"
+    android:background="#DDDDDD"
+    android:orientation="vertical" >
+    
+    <TextView 
+		    android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+		    android:text="智能排序"
+		    android:padding="10dp"
+		    android:background="#FFFFFF"
+		    android:id="@+id/tv_dialog_0"
+		    android:textColor="@color/languagegray"
+		    />
+    	<View 
+    	    android:layout_width="fill_parent"
+    		android:layout_height="1dp"
+    	    
+    	    />
+		<TextView 
+		    android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+		    android:text="距离最近"
+		    android:padding="10dp"
+		    android:background="#FFFFFF"
+		    android:id="@+id/tv_dialog_distance_small"
+		    android:textColor="@color/languagegray"
+		    />
+    	<View 
+    	    android:layout_width="fill_parent"
+    		android:layout_height="1dp"
+    	    
+    	    />
+    	<TextView 
+		    android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+		    android:text="最大返利"
+		    android:padding="10dp"
+		    android:background="#FFFFFF"
+		    android:id="@+id/tv_dialog_distance_big"
+		    android:textColor="@color/languagegray"
+		    />
+    	<View 
+    	    android:layout_width="fill_parent"
+    		android:layout_height="1dp"
+    	    android:background="@color/linegrey"
+    	    
+    	    />
+    	<TextView 
+		    android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+		    android:text="最大优惠"
+		    android:padding="10dp"
+		    android:background="#FFFFFF"
+		    android:id="@+id/tv_dialog_distance_nomal"
+		    android:textColor="@color/languagegray"
+		    />
+    	<View 
+    	    android:layout_width="fill_parent"
+    		android:layout_height="1dp"
+    	    android:background="@color/linegrey"
+    	    
+    	    />
+    	<TextView 
+		    android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+		    android:text="评价最高"
+		    android:padding="10dp"
+		    android:background="#FFFFFF"
+		    android:id="@+id/tv_dialog_3"
+		    android:textColor="@color/languagegray"
+		    />
+    	<View 
+    	    android:layout_width="fill_parent"
+    		android:layout_height="1dp"
+    	    android:background="@color/linegrey"
+    	    
+    	    />
+    	<TextView 
+		    android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+		    android:text="人气最高"
+		    android:padding="10dp"
+		    android:background="#FFFFFF"
+		    android:id="@+id/tv_dialog_4"
+		    android:textColor="@color/languagegray"
+		    />
+    	<View 
+    	    android:layout_width="fill_parent"
+    		android:layout_height="1dp"
+    	    android:background="@color/linegrey"
+    	    
+    	    />
+    	<TextView 
+		    android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+		    android:text="最新发布"
+		    android:padding="10dp"
+		    android:background="#FFFFFF"
+		    android:id="@+id/tv_dialog_5"
+		    android:textColor="@color/languagegray"
+		    />
+</LinearLayout>

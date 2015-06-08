@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/mgwAndroid/!svn/ver/157/membertest/MgwMember/src/com/mgw/member/ottoEvent
+END
+AppShouldUpdateEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/mgwAndroid/!svn/ver/140/membertest/MgwMember/src/com/mgw/member/ottoEvent/AppShouldUpdateEvent.java
+END
+UnreadInviteRefeshEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/mgwAndroid/!svn/ver/157/membertest/MgwMember/src/com/mgw/member/ottoEvent/UnreadInviteRefeshEvent.java
+END
+updateUserAvsAndNickEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/mgwAndroid/!svn/ver/157/membertest/MgwMember/src/com/mgw/member/ottoEvent/updateUserAvsAndNickEvent.java
+END
+MallFragmentNeedRefreshEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/mgwAndroid/!svn/ver/140/membertest/MgwMember/src/com/mgw/member/ottoEvent/MallFragmentNeedRefreshEvent.java
+END
+ReGetLoginInfoEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/mgwAndroid/!svn/ver/140/membertest/MgwMember/src/com/mgw/member/ottoEvent/ReGetLoginInfoEvent.java
+END
+FragmentNeedRefreshEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/mgwAndroid/!svn/ver/157/membertest/MgwMember/src/com/mgw/member/ottoEvent/FragmentNeedRefreshEvent.java
+END
+AppDownloadProgressEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/mgwAndroid/!svn/ver/140/membertest/MgwMember/src/com/mgw/member/ottoEvent/AppDownloadProgressEvent.java
+END
+FirendsHasChangeContentEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/mgwAndroid/!svn/ver/157/membertest/MgwMember/src/com/mgw/member/ottoEvent/FirendsHasChangeContentEvent.java
+END
+GetOttoProduceManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/mgwAndroid/!svn/ver/157/membertest/MgwMember/src/com/mgw/member/ottoEvent/GetOttoProduceManager.java
+END
+BusProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/mgwAndroid/!svn/ver/140/membertest/MgwMember/src/com/mgw/member/ottoEvent/BusProvider.java
+END

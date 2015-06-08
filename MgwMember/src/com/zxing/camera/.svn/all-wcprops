@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/zxing/camera
+END
+AutoFocusCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/zxing/camera/AutoFocusCallback.java
+END
+PreviewCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/zxing/camera/PreviewCallback.java
+END
+CameraConfigurationManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/zxing/camera/CameraConfigurationManager.java
+END
+CameraManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/zxing/camera/CameraManager.java
+END
+FlashlightManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/zxing/camera/FlashlightManager.java
+END
+PlanarYUVLuminanceSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/zxing/camera/PlanarYUVLuminanceSource.java
+END

@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/share_layout"
+    android:layout_width="160dip"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="5dip"
+    android:layout_marginTop="44dip"
+    android:orientation="vertical"
+ >
+
+    <TextView
+        android:id="@+id/share_friend"
+        android:layout_width="fill_parent"
+        android:layout_height="44dip"
+        android:background="#303537"
+        android:drawableLeft="@drawable/friend"
+        android:gravity="center_vertical"
+        android:padding="5dip"
+        android:text="发送给朋友"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#000000" />
+
+    <TextView
+        android:id="@+id/share_friend_all"
+        android:layout_width="fill_parent"
+        android:layout_height="44dip"
+        android:background="#303537"
+        android:drawableLeft="@drawable/friend_all"
+        android:gravity="center_vertical"
+        android:padding="5dip"
+        android:text="分享到朋友圈"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#000000" />
+
+    <TextView
+        android:id="@+id/tab_0"
+        android:layout_width="fill_parent"
+        android:layout_height="44dip"
+        android:background="#303537"
+        android:drawableLeft="@drawable/icon_1_n_b"
+        android:gravity="center_vertical"
+        android:padding="5dip"
+        android:text="消息互动"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#000000" />
+
+    <TextView
+        android:id="@+id/tab_1"
+        android:layout_width="fill_parent"
+        android:layout_height="44dip"
+        android:background="#303537"
+        android:drawableLeft="@drawable/icon_4_n_b"
+        android:gravity="center_vertical"
+        android:padding="5dip"
+        android:text="城市联盟"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#000000" />
+
+    <TextView
+        android:id="@+id/tab_2"
+        android:layout_width="fill_parent"
+        android:layout_height="44dip"
+        android:background="#303537"
+        android:drawableLeft="@drawable/buy_b"
+        android:gravity="center_vertical"
+        android:padding="5dip"
+        android:text="品牌商城"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#000000" />
+
+    <TextView
+        android:id="@+id/tab_3"
+        android:layout_width="fill_parent"
+        android:layout_height="44dip"
+        android:background="#303537"
+        android:drawableLeft="@drawable/icon_3_n_b"
+        android:gravity="center_vertical"
+        android:padding="5dip"
+        android:text="我的地盘"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+ 
+
+</LinearLayout>

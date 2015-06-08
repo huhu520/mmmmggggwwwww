@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity_" 
+    android:orientation="vertical"
+    android:background="@color/bg3">
+    <include layout="@layout/title_bar"/>
+    
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="20dip">
+        <EditText android:id="@+id/tel"
+	        android:layout_width="fill_parent"
+	        android:layout_height="44dip"
+	        android:layout_weight="1"
+	        android:textSize="16dip"
+	        android:hint="手机验证码"
+	        android:textColorHint="#CCCCCC"
+	        android:textColor="#404040"
+	        android:padding="5dip"
+	        android:inputType="number"
+	        android:singleLine="true"
+	        android:background="@drawable/input_center"/>
+        <Button android:id="@+id/code"
+	        android:layout_width="fill_parent"
+	        android:layout_height="44dip"
+	        android:layout_weight="2"
+	        android:text="获取验证码"
+	        android:layout_marginLeft="10dp"
+	        android:textSize="15dip"
+	        android:textColor="#FFFFFF"
+	        android:background="@drawable/login"/>
+    </LinearLayout>
+    
+         <EditText 
+           android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_marginLeft="20dp"
+    		android:layout_marginRight="20dp"
+           android:padding="10dp"
+            android:hint="您的昵称"
+            android:textSize="15sp"
+            android:textColorHint="@color/languagegray"
+            android:id="@+id/password"
+            android:background="@drawable/corner"
+            android:drawablePadding="10dp"
+            />
+            
+        <TextView 
+            android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_marginLeft="20dp"
+    		android:layout_marginRight="20dp"
+           android:padding="10dp"
+           android:layout_marginTop="10dp"
+            android:hint="性别"
+            android:textColorHint="@color/languagegray"
+            android:textSize="15sp"
+            android:id="@+id/password0"
+            android:background="@drawable/corner"
+            android:drawableRight="@drawable/right_arrow_icon"
+            android:drawablePadding="10dp"
+            />
+        
+        <Button 
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_marginLeft="20dp"
+    		android:layout_marginRight="20dp"
+            android:text="完成"
+            android:textColor="@color/white"
+            android:background="@drawable/select_moregreen_btn"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:id="@+id/login"
+            />
+</LinearLayout>

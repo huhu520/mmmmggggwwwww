@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/mgwAndroid/!svn/ver/160/membertest/MgwMember/src/com/hx/hxchat/holder/protocol
+END
+GroupsListProtocol.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/mgwAndroid/!svn/ver/160/membertest/MgwMember/src/com/hx/hxchat/holder/protocol/GroupsListProtocol.java
+END
+BaseProtocol.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/mgwAndroid/!svn/ver/160/membertest/MgwMember/src/com/hx/hxchat/holder/protocol/BaseProtocol.java
+END
+PublicGroupsListProtocol.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/mgwAndroid/!svn/ver/160/membertest/MgwMember/src/com/hx/hxchat/holder/protocol/PublicGroupsListProtocol.java
+END
+ChatHistoryListProtocol.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/mgwAndroid/!svn/ver/160/membertest/MgwMember/src/com/hx/hxchat/holder/protocol/ChatHistoryListProtocol.java
+END

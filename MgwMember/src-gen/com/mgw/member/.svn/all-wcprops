@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/mgwAndroid/!svn/ver/158/membertest/MgwMember/src-gen/com/mgw/member
+END
+NoteDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/mgwAndroid/!svn/ver/157/membertest/MgwMember/src-gen/com/mgw/member/NoteDao.java
+END
+TopUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/mgwAndroid/!svn/ver/157/membertest/MgwMember/src-gen/com/mgw/member/TopUser.java
+END
+RememberLoginNameDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/mgwAndroid/!svn/ver/158/membertest/MgwMember/src-gen/com/mgw/member/RememberLoginNameDao.java
+END
+RememberLoginName.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/mgwAndroid/!svn/ver/158/membertest/MgwMember/src-gen/com/mgw/member/RememberLoginName.java
+END
+DaoMaster.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/mgwAndroid/!svn/ver/157/membertest/MgwMember/src-gen/com/mgw/member/DaoMaster.java
+END
+DaoSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/mgwAndroid/!svn/ver/157/membertest/MgwMember/src-gen/com/mgw/member/DaoSession.java
+END
+Note.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/mgwAndroid/!svn/ver/157/membertest/MgwMember/src-gen/com/mgw/member/Note.java
+END
+TopUserDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/mgwAndroid/!svn/ver/157/membertest/MgwMember/src-gen/com/mgw/member/TopUserDao.java
+END

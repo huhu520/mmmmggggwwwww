@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/title_bar"/>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+   	 	android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:background="@color/bg3">
+        
+        <EditText android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+           	android:padding="10dp"
+            android:hint="手机号码"
+            android:textSize="15sp"
+            android:textColorHint="@color/languagegray"
+            android:id="@+id/tel"
+            android:background="@color/white"
+            android:numeric="integer"
+            android:inputType="number"
+            android:drawableLeft="@drawable/ic_user"
+            android:drawablePadding="10dp"/>
+        
+        <View android:layout_width="match_parent"
+    		android:layout_height="1px"
+            android:background="@color/linegrey"/>
+        
+        <RelativeLayout android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+	        android:background="@color/white">
+	        <ImageButton android:id="@+id/show"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+	            android:layout_centerVertical="true"
+	            android:layout_marginRight="5dp"
+	            android:background="@drawable/btn_show_pwd"/>
+    		<EditText android:layout_width="match_parent"
+	    		android:layout_height="wrap_content"
+	           	android:padding="10dp"
+	            android:hint="登录密码"
+	            android:textColorHint="@color/languagegray"
+	            android:inputType="textPassword"
+	            android:textSize="15sp"
+	            android:id="@+id/password"
+	            android:layout_toLeftOf="@id/show"
+	            android:drawableLeft="@drawable/ic_pwd"
+	            android:drawablePadding="10dp"
+	        	android:background="@color/white"/>
+        </RelativeLayout>
+        
+         <View android:layout_width="match_parent"
+    		android:layout_height="1px"
+            android:background="@color/linegrey"/>
+         
+        <EditText android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+           android:padding="10dp"
+            android:hint="商家卡卡号"
+            android:id="@+id/recommand"
+            android:textColorHint="@color/languagegray"
+            android:textSize="15sp"
+            android:numeric="integer"
+            android:inputType="number"
+            android:background="@color/white"
+            android:drawableLeft="@drawable/ic_bj"
+            android:drawablePadding="10dp"/>
+        
+         <View android:layout_width="match_parent"
+    		android:layout_height="1px"
+            android:background="@color/linegrey"/>
+        
+        <EditText android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+           android:padding="10dp"
+            android:hint="商家卡激活码"
+            android:id="@+id/code"
+            android:textColorHint="@color/languagegray"
+            android:textSize="15sp"
+            android:numeric="integer"
+            android:inputType="number"
+            android:background="@color/white"
+            android:drawableLeft="@drawable/ic_pwd"
+            android:drawablePadding="10dp"/>
+        
+        <Button android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+            android:text="下一步"
+            android:textColor="@color/white"
+            android:background="@drawable/select_moregreen_btn"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:id="@+id/login"/>
+    </LinearLayout>
+</LinearLayout>

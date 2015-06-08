@@ -1,0 +1,145 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+     <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    	android:orientation="vertical" 
+    	 android:layout_alignParentTop="true"
+        android:id="@+id/lyfirst">
+    <include layout="@layout/title_bar" ></include>
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    	android:orientation="vertical"
+        android:padding="20dp"
+        android:background="#52c9da">
+        <RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp">
+            <ImageView android:id="@+id/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_mobile"/>
+            <TextView android:id="@+id/label"
+                android:layout_toRightOf="@id/icon"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="#FFFFFF"
+	            android:textSize="15sp"
+	            android:text="支付金额"/>
+            <TextView android:id="@+id/txtcashmoney"
+                android:layout_toRightOf="@id/icon"
+                android:layout_below="@id/label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="￥ 0.0"
+                android:textSize="40sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+        <TextView android:id="@+id/txtordercode"
+        	    android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="#FFFFFF"
+	            android:textSize="15sp"
+	        	android:layout_marginTop="20dp"
+	            android:text="支付凭据单号: "/>
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+	        android:layout_marginTop="10dp">
+        	<TextView android:id="@+id/txthyprice"
+        	    android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="#FFFFFF"
+	            android:textSize="15sp"
+	            android:text="折后价 ￥0"/>
+        	<TextView android:id="@+id/txtprice_old"
+        	    android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="#DDDDDD"
+	            android:textSize="12sp"
+	            android:layout_marginLeft="10dp"
+	            android:text="￥"/>
+        	<TextView android:id="@+id/txtoutlet"
+        	    android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="right"
+	            android:textColor="#FFFFFF"
+	            android:textSize="15sp"
+	            android:text="消费券抵用: "/>
+        </LinearLayout>
+    </LinearLayout>
+     </LinearLayout>
+      <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/lySecond"
+        android:layout_below="@+id/lyfirst" >
+
+     <ScrollView
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:fadingEdge="vertical"
+         android:scrollbars="vertical" >
+         <LinearLayout android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            >
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        android:id="@+id/layoutConcumecode"
+        android:visibility="gone"
+        android:background="@drawable/corner">
+         <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#404040"
+            android:textSize="15sp"
+            android:text="本次已扣除消费卷"/>
+    </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        android:id="@+id/layoutptOrder"
+        android:visibility="gone"
+        android:background="@drawable/corner"> 
+         <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#404040"
+            android:textSize="15sp"
+            android:text="本次消费平台订单"/>
+         
+    </LinearLayout>
+      </LinearLayout>
+      </ScrollView>
+  </RelativeLayout>
+ <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    	android:orientation="vertical"  
+        android:id="@+id/lySecond"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp">
+    <Button android:id="@+id/btnpay_xs"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="42dp"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:text="完成"
+        android:background="@drawable/corner_b"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/mgwAndroid/!svn/ver/160/membertest/MgwMember/src/com/hx/hxchat/holder
+END
+GroupAddHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/mgwAndroid/!svn/ver/160/membertest/MgwMember/src/com/hx/hxchat/holder/GroupAddHolder.java
+END
+BaseHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/mgwAndroid/!svn/ver/160/membertest/MgwMember/src/com/hx/hxchat/holder/BaseHolder.java
+END
+GroupListItemHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/mgwAndroid/!svn/ver/160/membertest/MgwMember/src/com/hx/hxchat/holder/GroupListItemHolder.java
+END
+PublicGroupsListItemHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/mgwAndroid/!svn/ver/160/membertest/MgwMember/src/com/hx/hxchat/holder/PublicGroupsListItemHolder.java
+END
+ChatHistoryListItemHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/mgwAndroid/!svn/ver/160/membertest/MgwMember/src/com/hx/hxchat/holder/ChatHistoryListItemHolder.java
+END
+GroupListItemHeaderHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/mgwAndroid/!svn/ver/160/membertest/MgwMember/src/com/hx/hxchat/holder/GroupListItemHeaderHolder.java
+END
+GroupListInfoHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/mgwAndroid/!svn/ver/160/membertest/MgwMember/src/com/hx/hxchat/holder/GroupListInfoHolder.java
+END
+BaseListView.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/mgwAndroid/!svn/ver/160/membertest/MgwMember/src/com/hx/hxchat/holder/BaseListView.java
+END
+MoreHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/mgwAndroid/!svn/ver/160/membertest/MgwMember/src/com/hx/hxchat/holder/MoreHolder.java
+END

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <FrameLayout
+        android:id="@+id/fl_webviews"
+      
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+           />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:visibility="gone"
+   >
+
+        <Button
+            android:id="@+id/btn_scan"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="二维码扫描"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_call"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="46dp"
+            android:text="拨打电话" />
+
+        <Button
+            android:id="@+id/btn_exit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="92dp"
+            android:text="退出环信及登录" />
+
+        <Button
+            android:id="@+id/btn_changeskin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="138dp"
+            android:text="更换皮肤" />
+
+        <Button
+            android:id="@+id/btn_cityleague"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="184dp"
+            android:text="城市联盟" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_error"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#CCCCCC"
+        android:visibility="invisible" >
+
+        <include
+            android:id="@+id/include1"
+            layout="@layout/include_error_load" />
+    </RelativeLayout>
+
+</FrameLayout>

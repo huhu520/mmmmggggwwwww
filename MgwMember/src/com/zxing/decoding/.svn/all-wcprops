@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/zxing/decoding
+END
+DecodeHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/zxing/decoding/DecodeHandler.java
+END
+DecodeFormatManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/zxing/decoding/DecodeFormatManager.java
+END
+DecodeThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/zxing/decoding/DecodeThread.java
+END
+Intents.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/zxing/decoding/Intents.java
+END
+FinishListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/zxing/decoding/FinishListener.java
+END
+RGBLuminanceSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/zxing/decoding/RGBLuminanceSource.java
+END
+CaptureActivityHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/zxing/decoding/CaptureActivityHandler.java
+END
+InactivityTimer.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/zxing/decoding/InactivityTimer.java
+END

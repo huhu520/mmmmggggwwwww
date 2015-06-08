@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="#f9f9f9"
+        android:orientation="horizontal" >
+    
+    
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+    	android:layout_height="75dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+        
+        <ImageView 
+	    android:layout_width="75dp"
+	    android:layout_height="75dp"
+	    android:scaleType="centerCrop"
+	    android:padding="2dp"
+	    android:layout_marginLeft="2dp"
+	    android:src="@drawable/img_loading"
+	    android:id="@+id/iv_item_shopdetail_list"/>
+        
+        
+        <RelativeLayout 
+            android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent"
+            android:padding="2dp"
+            
+            >
+            
+            <TextView 
+                android:layout_alignParentTop="true"
+                android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+                android:text="费罗KTV是一个装修时尚，精美舒适的KTV"
+                android:lines="2"
+                android:ellipsize="end"
+                android:textSize="15sp"
+                android:textColor="#404040"
+                android:layout_marginTop="5dp"
+                android:id="@+id/tv_allshop_list_option"
+                />
+            
+                <TextView 
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+                android:text="12"
+                android:textSize="20sp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:textColor="@color/languagegray3"
+                android:id="@+id/tv_item_shopdetail_list_newprice"
+                />
+                <TextView 
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+                android:text="元"
+                android:textSize="12sp"
+                android:layout_alignParentBottom="true"
+                android:textColor="@color/languagegray4"
+                android:layout_toRightOf="@id/tv_item_shopdetail_list_newprice"
+                android:id="@+id/tv_item_shopdetail_list_1"
+                />
+                <TextView 
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+                android:text="268元"
+                android:textSize="12sp"
+                android:textColor="#CCCCCC"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/tv_item_shopdetail_list_1"
+                android:id="@+id/tv_item_shopdetail_list_oldprice"
+                android:layout_alignParentBottom="true"
+                />
+                
+                 <TextView 
+                     android:paddingLeft="5dp"
+                     android:paddingRight="5dp"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+                android:text="返￥1.2"
+                android:background="@drawable/bg_orange"
+                android:textSize="10sp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="5dp"
+                android:visibility="gone"
+                android:layout_toRightOf="@id/tv_item_shopdetail_list_oldprice"
+                android:id="@+id/tv_item_shopdetail_list_fan"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="2dp"
+                />
+                 <TextView 
+                android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+                android:text="已售 :125"
+                android:textSize="12sp"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/languagegray2"
+                android:id="@+id/tv_item_shopdetail_list_count"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                />
+                
+        </RelativeLayout>
+        
+        
+        
+        
+        
+    </LinearLayout>
+    
+     </LinearLayout>
+	<View 
+	    android:layout_width="fill_parent"
+        android:layout_height="5dp"
+	    android:background="#00000000"
+	    
+	    
+	    />
+    
+    
+    
+    
+	
+    
+    
+    
+    
+</LinearLayout>

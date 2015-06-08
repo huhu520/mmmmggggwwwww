@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/mgwAndroid/!svn/ver/157/membertest/MgwMember/src/com/hx/hxchat/db
+END
+GroupsDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/mgwAndroid/!svn/ver/160/membertest/MgwMember/src/com/hx/hxchat/db/GroupsDao.java
+END
+LinkerDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/mgwAndroid/!svn/ver/157/membertest/MgwMember/src/com/hx/hxchat/db/LinkerDao.java
+END
+UserDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/mgwAndroid/!svn/ver/157/membertest/MgwMember/src/com/hx/hxchat/db/UserDao.java
+END
+DbOpenHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/mgwAndroid/!svn/ver/160/membertest/MgwMember/src/com/hx/hxchat/db/DbOpenHelper.java
+END
+InviteMessgeDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/db/InviteMessgeDao.java
+END
+TopUserDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/mgwAndroid/!svn/ver/149/membertest/MgwMember/src/com/hx/hxchat/db/TopUserDao.java
+END

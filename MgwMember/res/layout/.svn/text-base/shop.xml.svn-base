@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg2"
+    android:orientation="vertical" >
+
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/slowblue2" >
+
+        <Button android:id="@+id/bt_titlebar_left"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:background="@drawable/back" />
+        
+        <RelativeLayout android:layout_width="wrap_content"
+	        android:layout_height="44dp"
+	        android:layout_centerHorizontal="true" >
+	        <TextView android:layout_centerVertical="true"
+	            android:id="@+id/tv_shop_allshop"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="全部商家"
+	            android:textColor="@color/white"
+	            android:textSize="15sp" />
+	        <View android:layout_centerVertical="true"
+	            android:id="@+id/v_shop_line2"
+	            android:layout_width="1dp"
+	            android:layout_height="15dp"
+	            android:layout_marginLeft="10dp"
+	            android:layout_toRightOf="@id/tv_shop_allshop"
+	            android:background="@color/white" />
+	        <View android:id="@+id/v_shop_line"
+	            android:layout_width="wrap_content"
+	            android:layout_height="3dp"
+	            android:layout_alignLeft="@id/tv_shop_allshop"
+	            android:layout_alignRight="@id/tv_shop_allshop"
+	            android:layout_below="@id/tv_shop_allshop"
+	            android:layout_marginTop="3dp"
+	            android:background="@color/lighegreen" />
+	        <TextView android:layout_centerVertical="true"
+	            android:id="@+id/tv_shop_seckill"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_toRightOf="@id/v_shop_line2"
+	            android:layout_marginLeft="10dp"
+	            android:text="秒杀频道"
+	            android:textColor="@color/white"
+	            android:textSize="15sp" />
+	        <View android:id="@+id/v_shop_line0"
+	            android:layout_width="wrap_content"
+	            android:layout_height="3dp"
+	            android:visibility="invisible"
+	            android:layout_alignLeft="@id/tv_shop_seckill"
+	            android:layout_alignRight="@id/tv_shop_seckill"
+	            android:layout_below="@id/tv_shop_seckill"
+	            android:layout_marginTop="3dp"
+	            android:background="@color/lighegreen" />
+	        <ImageView android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentTop="true"
+	            android:layout_toRightOf="@id/tv_shop_seckill"
+	            android:id="@+id/iv_shop_hot"
+	            android:scaleType="centerCrop"
+	            android:src="@drawable/hot"/>
+        </RelativeLayout>
+        <Button
+            android:layout_centerVertical="true"
+            android:id="@+id/bt_shop_search"
+            android:layout_width="23dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:visibility="gone"
+            android:background="@drawable/select_search_btn" />
+
+        <Button
+            android:layout_centerVertical="true"
+            android:id="@+id/bt_shop_location"
+            android:layout_width="13dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="15dp"
+            android:visibility="gone"
+            android:layout_toLeftOf="@id/bt_shop_search"
+            android:background="@drawable/select_search_location" />
+      
+    </RelativeLayout>
+	<RelativeLayout 
+	    android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+	    
+	    
+	    
+	    >
+	    
+	    
+	    
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+	    android:orientation="vertical"
+	    android:id="@+id/ll_shop"
+	    >
+	    
+	    
+	    
+	
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal" 
+        android:gravity="center">
+
+        <LinearLayout
+            android:id="@+id/ll_shop_shopkind"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="100"
+            android:gravity="center"
+            android:orientation="horizontal" >
+			
+            <ImageView 
+               android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:src="@drawable/ic_bussiness_type"
+                android:scaleType="centerCrop"
+                android:layout_marginRight="10dp"
+                
+                />
+            
+            <TextView
+                android:id="@+id/tv_shop_shopkind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="商家分类"
+                android:textSize="12sp" />
+            <ImageView 
+               android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:src="@drawable/ic_menu_0"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="10dp"
+                
+                />
+        </LinearLayout>
+		<View
+            android:layout_width="1dp"
+            android:layout_height="30dp"
+            android:background="@color/linegrey"
+            android:layout_weight="0"
+             />
+        <LinearLayout
+            android:id="@+id/ll_shop_location"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="100"
+            android:gravity="center"
+            android:orientation="horizontal" >
+			<ImageView 
+               android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:src="@drawable/ic_loc_0"
+                android:scaleType="centerCrop"
+                android:layout_marginRight="10dp"
+                
+                />
+            <TextView
+                android:id="@+id/tv_shop_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="全城"
+                android:textSize="12sp" />
+             <ImageView 
+               android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:src="@drawable/ic_menu_0"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="10dp"
+                
+                />
+        </LinearLayout>
+		<View
+            android:layout_width="1dp"
+            android:layout_height="30dp"
+            android:background="@color/linegrey"
+            android:layout_weight="0"
+             />
+        <LinearLayout
+            android:id="@+id/ll_shop_distance"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="100"
+            android:gravity="center"
+            android:orientation="horizontal" >
+             <ImageView 
+               android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:src="@drawable/ic_sort"
+                android:scaleType="centerCrop"
+                android:layout_marginRight="10dp"
+                
+                />
+            <TextView
+                android:id="@+id/tv_shop_distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="智能排序"
+                android:drawablePadding="5dp"
+                android:textSize="12sp" />
+             <ImageView 
+               android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:src="@drawable/ic_menu_0"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="10dp"
+                
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/linegrey" />
+    
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/shop_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="5dp"
+        android:cacheColorHint="#000000"
+        android:divider="#00ff00"
+        android:fadingEdge="none"
+        android:scrollbars="none"
+         />
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+	    android:orientation="vertical"
+	    android:id="@+id/ll_sec"
+	    android:visibility="gone"
+	    >
+	    
+	    <LinearLayout 
+        android:layout_width="fill_parent"
+    	android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="@color/white"
+        >
+        <LinearLayout 
+            android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:id="@+id/ll_seckil_shopkind"
+            >
+            <TextView 
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+                android:text="商品分类"
+                android:textSize="12sp"
+                android:id="@+id/tv_seckill_shopkind"
+                android:drawableLeft="@drawable/ic_bussiness_type"
+                android:textColor="@color/languagegray"
+                android:drawablePadding="10dp"
+                
+                />
+            
+            <ImageView 
+                android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+                android:src="@drawable/ic_menu_0"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="10dp"
+                
+                />
+            
+        </LinearLayout>
+        <View 
+            android:layout_width="1dp"
+    		android:layout_height="30dp"
+            android:background="@color/linegrey"
+            
+            
+            />
+        <LinearLayout 
+            android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:id="@+id/ll_seckil_location"
+            >
+            <TextView 
+                android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+                android:text="距离最近"
+                android:textSize="12sp"
+                android:textColor="@color/languagegray"
+                android:id="@+id/tv_seckil_location"
+                android:drawableLeft="@drawable/ic_loc4"
+                />
+            
+            
+            
+        </LinearLayout>
+        <View 
+            android:layout_width="1dp"
+    		android:layout_height="30dp"
+            android:background="@color/linegrey"
+            
+            
+            />
+        <LinearLayout 
+            android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:id="@+id/ll_seckil_youhui"
+            >
+            <TextView 
+                android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+                android:text="优惠最大"
+                android:textSize="12sp"
+                android:textColor="@color/languagegray"
+                android:id="@+id/tv_seckil_youhui"
+                android:drawableLeft="@drawable/ic_sort"
+                />
+            
+            
+            
+        </LinearLayout>
+        
+        
+        
+    </LinearLayout>
+    <View 
+        android:layout_width="fill_parent"
+    	android:layout_height="1dp"
+    	android:background="#e0e0e0"
+    	
+        
+        />
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="0px"
+        android:cacheColorHint="#ff0000"
+        android:divider="#e0e0e0"
+        android:fadingEdge="none"
+        android:scrollbars="none"
+         />
+	    
+	    
+	    
+	</LinearLayout>
+   </RelativeLayout>
+</LinearLayout>

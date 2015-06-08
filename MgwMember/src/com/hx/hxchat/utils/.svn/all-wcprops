@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/mgwAndroid/!svn/ver/157/membertest/MgwMember/src/com/hx/hxchat/utils
+END
+StringUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/mgwAndroid/!svn/ver/160/membertest/MgwMember/src/com/hx/hxchat/utils/StringUtils.java
+END
+FileUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/mgwAndroid/!svn/ver/148/membertest/MgwMember/src/com/hx/hxchat/utils/FileUtil.java
+END
+HTTPService.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/mgwAndroid/!svn/ver/148/membertest/MgwMember/src/com/hx/hxchat/utils/HTTPService.java
+END
+LoadUserAvatar.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/mgwAndroid/!svn/ver/148/membertest/MgwMember/src/com/hx/hxchat/utils/LoadUserAvatar.java
+END
+SmileUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/utils/SmileUtils.java
+END
+ImageCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/utils/ImageCache.java
+END
+PreferenceUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/mgwAndroid/!svn/ver/157/membertest/MgwMember/src/com/hx/hxchat/utils/PreferenceUtils.java
+END
+UserUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/mgwAndroid/!svn/ver/160/membertest/MgwMember/src/com/hx/hxchat/utils/UserUtils.java
+END
+ImageUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/utils/ImageUtils.java
+END
+CommonUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/mgwAndroid/!svn/ver/149/membertest/MgwMember/src/com/hx/hxchat/utils/CommonUtils.java
+END
+CameraHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/utils/CameraHelper.java
+END
+BitmapCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/mgwAndroid/!svn/ver/148/membertest/MgwMember/src/com/hx/hxchat/utils/BitmapCache.java
+END

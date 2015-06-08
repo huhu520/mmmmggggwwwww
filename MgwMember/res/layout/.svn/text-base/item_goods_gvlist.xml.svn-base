@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    android:orientation="vertical" >
+	
+    <ImageView android:layout_gravity="center_horizontal"
+        android:layout_width="150dp"
+    	android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_loading"
+        android:id="@+id/iv_item_goods_gvlist"/>
+    
+    <TextView android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+        android:id="@+id/tv_item_goods_gvlist_name"
+        android:text="[长沙市等]金牛角王中西餐厅"
+        android:lines="1"
+        android:textColor="#404040"
+        android:textSize="13sp"
+        android:ellipsize="end"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"/>
+    
+    <RelativeLayout android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        android:padding="5dp">
+        <TextView android:layout_centerVertical="true"
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	        android:id="@+id/tv_item_goods_gvlist_nowprive"
+	        android:text="￥128"
+	        android:textColor="@color/orange"
+	        android:lines="1"
+	        android:textSize="16sp"
+	        android:layout_alignParentLeft="true"/>
+        <TextView android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+	            android:text="元"
+	            android:textSize="12sp"
+	            android:textColor="@color/languagegray"
+	            android:id="@+id/unit"
+	            android:layout_alignBottom="@id/tv_item_goods_gvlist_nowprive"
+	            android:layout_toRightOf="@id/tv_item_goods_gvlist_nowprive"/>
+        <TextView android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	        android:id="@+id/tv_item_goods_gvlist_sellcount"
+	        android:text="已售：123"
+	        android:lines="1"
+	        android:textSize="12sp"
+	        android:layout_alignBottom="@id/tv_item_goods_gvlist_nowprive"
+	        android:layout_alignParentRight="true"
+	        android:textColor="#A0A0A0"/>
+        <TextView android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	        android:id="@+id/tv_item_goods_gvlist_oldprice"
+	        android:text="￥138"
+	        android:lines="1"
+	        android:textSize="12sp"
+	        android:layout_alignBottom="@id/tv_item_goods_gvlist_nowprive"
+	        android:textColor="#A0A0A0"
+	        android:layout_toRightOf="@id/unit"
+	        android:layout_marginLeft="5dp"
+	        android:layout_toLeftOf="@id/tv_item_goods_gvlist_sellcount"
+	        android:ellipsize="end"/>
+    </RelativeLayout>
+</LinearLayout>

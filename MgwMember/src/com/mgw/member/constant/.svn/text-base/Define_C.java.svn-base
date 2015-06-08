@@ -1,0 +1,132 @@
+package com.mgw.member.constant;
+
+import android.os.Environment;
+
+/**
+ * @author huyan
+ * 
+ */
+
+public class Define_C {
+
+	/** 手机串号 */
+	public static String s_DeviceId = "";
+
+	/** 消费的商户ID */
+	public static String s_shopingId = "";
+
+	/** 操作员ID */
+	public static String s_old = "";
+
+	/** 消费的店铺名称 */
+	public static String s_shopingName = "";
+
+	/** 折扣 */
+	public static String s_discount = "";
+
+	/** 返利金 */
+	public static String s_return_money = "";
+
+	/** 订单号 */
+	public static String s_orderId = "";
+
+	/** 是否删除 类型 */
+	public static byte s_isDelete = 0;
+	/** 联系人是否有变更 */
+	public static Boolean s_HasChangeContent = false;
+	/** 是否需要刷新contactlist */
+	public static Boolean s_shouldflushcontactlist = true;
+	/** 是否注册了环信 */
+	public static String s_RelationID = "";
+	/** 环信是否登录 */
+	public static Boolean bHxLogined = false;
+	public static boolean coveimg = false;
+	public static boolean firstimg = false;
+	public static boolean nexttimg = false;
+	public static boolean thirdtimg = false;
+	public static String coveimgid = "";
+	public static String firstimgid = "";
+	public static String nexttimgid = "";
+	public static String thirdtimgid = "";
+//	/** 测试消息地址 */
+//	public static final String ONLINE_UPDATE_URL = "http://Androidtest.mgw.cc/index.aspx";
+//	public static String mgw_url = "http://androidtest.mgw.cc/index.aspx";
+//	public static String mgw_url2 = "http://androidtest.mgw.cc";
+
+	 //
+	 public static final String ONLINE_UPDATE_URL ="http://Android5.mgw.cc/index.aspx";
+	 public static String mgw_url = "http://android5.mgw.cc/index.aspx";
+	 public static String mgw_url2 = "http://android5.mgw.cc";
+
+	/**
+	 * 储存用户名标签
+	 */
+	public static String PREF_USERNAME = "username";
+	/**
+	 * 储存密码标签
+	 */
+	public static final String PREF_PWD = "pwd";
+	/** 个人地盘url */
+	public static final String MY_INFO_URL = "file://" + Environment.getExternalStorageDirectory().getPath() + "/mgw" + "/unziphtml" + "/html" + "/userarea.html";
+	/** 主页 */
+	public static final String HOME_URL = "file://" + Environment.getExternalStorageDirectory().getPath() + "/mgw" + "/unziphtml" + "/html" + "/index.html";
+	// public static final String HOME_URL =
+	// "file:///android_asset/html2/default.htm";
+	/** 消息 */
+	public static final String NEWS_URL = "file://" + Environment.getExternalStorageDirectory().getPath() + "/mgw" + "/unziphtml" + "/html" + "/userarea.html";
+	/** 发现 */
+	public static final String FIND_URL = "file://" + Environment.getExternalStorageDirectory().getPath() + "/mgw" + "/unziphtml" + "/html" + "/discover.html";
+	/** 商城 */
+	public static final String MALL_URL = "http://Androidweb.mgw.cc/default.aspx?type=2&a=6Ufv2BEgRXjOLg7EaNRBv6zXZIwLtRQy";
+
+	// // // -----------------Wxpay
+	// // //
+	// public static final String PARTNER_ID = "1222809301";
+	//
+	// /**
+	// * 微信公众平台商户模块和商户约定的密钥
+	// *
+	// * 注意：不能hardcode在客户端，建议genPackage这个过程由服务器端完成
+	// */
+	// public static final String PARTNER_KEY =
+	// "8eafc1f9c81c1fabb7e2d255a546b6e4";
+	// //
+	//
+	// /**
+	// * 微信支付 Appid
+	// */
+	// public static final String APP_ID = "wx2f3879cb6518b6c9";
+	//
+	// /**
+	// * 微信开放平台和商户约定的密钥
+	// *
+	// * 注意：不能hardcode在客户端，建议genSign这个过程由服务器端完成
+	// */
+	// public static final String APP_SECRET =
+	// "7d824c680093c16fb488ecf94f340ded"; // wxd930ea5d5a258f4f
+	//
+	// /**
+	// * 微信开放平台和商户约定的支付密钥
+	// *
+	// * 注意：不能hardcode在客户端，建议genSign这个过程由服务器端完成（客户端生成）
+	// */
+	// public static final String APP_KEY =
+	// "6jpZQmbQKorTReKxJe4EEwvcqqqj4hQFvjPpN8oWFx7j4jdjinDI8BXEaRCChXp6EvdFFW38nTV6OHhMLZlM6E44aPT3sQ0IY1zaa7KgOGRhwnfyMXloqvOxzjZbD3aJ";
+
+	// wxd930ea5d5a258f4f
+
+	public static final String PARTNER_KEY = "Mgwljqlly852741966554881548fasdf";
+	public static final String PARTNER_ID = "1237853302";
+	public static final String APP_ID = "wx2d3a5e9147827ac9";
+	public static final String APP_SECRET = "b1f7479070c1bf82dd32b31b6da85cf1";//
+
+	// public static final String APP_KEY = "6094777196dd04ec778b4a9430418c18";
+
+	public static class ShowMsgActivity {
+
+		public static final String STitle = "showmsg_title";
+		public static final String SMessage = "showmsg_message";
+		public static final String BAThumbData = "showmsg_thumb_data";
+	}
+	// -----------------Wxpay
+}

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/mgwAndroid/!svn/ver/116/membertest/MgwMember/src/com/mgw/member/http
+END
+HttpRetry.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/mgw/member/http/HttpRetry.java
+END
+WZHttp.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/mgw/member/http/WZHttp.java
+END
+Http.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/mgwAndroid/!svn/ver/102/membertest/MgwMember/src/com/mgw/member/http/Http.java
+END
+HttpClientFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/mgw/member/http/HttpClientFactory.java
+END
+HttpHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/mgw/member/http/HttpHelper.java
+END

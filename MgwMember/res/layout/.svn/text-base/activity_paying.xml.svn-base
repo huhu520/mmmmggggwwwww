@@ -1,0 +1,199 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+       android:layout_height="@dimen/height_top_bar"
+        android:background="#17AEC9">
+        <Button
+            android:id="@+id/ibBack_paying"
+            android:layout_centerVertical="true"
+            android:layout_width="44dp"
+    	    android:layout_height="44dp"
+            android:background="@drawable/back" />
+
+         <TextView
+             android:id="@+id/tv_title"
+             android:layout_width="wrap_content"
+             android:layout_height="fill_parent"
+             android:layout_alignParentTop="true"
+             android:layout_centerHorizontal="true"
+             android:ellipsize="end"
+             android:gravity="center_vertical"
+             android:singleLine="true"
+             android:text="您正在收银中"
+             android:textColor="#ffffff"
+             android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#52c9da"
+        android:gravity="center"
+        
+        android:orientation="vertical"
+        android:padding="20dp" >
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" 
+            android:gravity="center_vertical"
+            android:drawableLeft="@drawable/ic_time"
+            android:text="您已等待"/>
+        <RelativeLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+             android:gravity="center_vertical"
+           >
+            <TextView android:id="@+id/hour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="40sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"/>
+            <TextView android:id="@+id/label"
+                android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="#FFFFFF"
+	            android:textSize="15sp"
+	            android:layout_marginLeft="5dp"
+	            android:paddingBottom="8dp"
+	            android:layout_alignBottom="@id/hour"
+	            android:layout_toRightOf="@id/hour"
+	            android:text="分钟"/>
+            <TextView android:id="@+id/min"
+	            android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="40sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"/>
+            <TextView android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="#FFFFFF"
+	            android:textSize="15sp"
+	            android:layout_marginLeft="5dp"
+	            android:paddingBottom="8dp"
+	            android:layout_alignBottom="@id/min"
+	            android:layout_toRightOf="@id/min"
+	            android:text="秒"/>
+        </RelativeLayout>
+        <TextView android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="#FFFFFF"
+	            android:textSize="15sp"
+	            
+	            android:layout_marginTop="20dp"
+	            android:gravity="center_vertical"
+	            android:text="稍等，收银员正在操作中..."/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/corner">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#404040"
+            android:textSize="15sp"
+            android:layout_gravity="center_horizontal"
+            android:text="我的特权"/>
+        <View android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#CCCCCC"/>
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal">
+            <LinearLayout android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:background="@drawable/corner_o">
+                <TextView android:id="@+id/outlet"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="0.0"
+	                android:layout_gravity="center_horizontal"
+	                android:textSize="30sp"
+	                android:textColor="#FFFFFF"
+	                android:textStyle="bold"/>
+	            <TextView android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+	                android:layout_gravity="center_horizontal"
+		            android:textColor="#FFFFFF"
+		            android:textSize="15sp"
+		            android:text="  折  扣  "/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/corner_b">
+                <TextView android:id="@+id/fanli"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="00%"
+	                android:layout_gravity="center_horizontal"
+	                android:textSize="30sp"
+	                android:textColor="#FFFFFF"
+	                android:textStyle="bold"/>
+	            <TextView android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+	                android:layout_gravity="center_horizontal"
+		            android:textColor="#FFFFFF"
+		            android:textSize="15sp"
+		            android:text="  返  利  "/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="2dp"
+        android:orientation="vertical"
+        android:background="@drawable/corner">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#404040"
+            android:textSize="15sp"
+            android:text="可用的消费券"/>
+        <View android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#CCCCCC"/>
+
+        <ListView
+            android:id="@+id/lv_paying_canusecoupon"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="1dp"
+            android:divider="#CCCCCC"
+            android:dividerHeight="1px"
+            android:scrollbars="none"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+       
+    </LinearLayout>
+</LinearLayout>

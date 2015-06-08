@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/mgwAndroid/!svn/ver/149/membertest/MgwMember/res/menu
+END
+main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/res/menu/main.xml
+END
+delete_contact.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/res/menu/delete_contact.xml
+END
+context_contact_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/res/menu/context_contact_list.xml
+END
+delete_message.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/mgwAndroid/!svn/ver/149/membertest/MgwMember/res/menu/delete_message.xml
+END
+remove_from_blacklist.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/res/menu/remove_from_blacklist.xml
+END

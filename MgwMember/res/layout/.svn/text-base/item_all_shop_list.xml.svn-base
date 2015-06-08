@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:background="@color/white"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:orientation="vertical" >
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content">
+        
+        <TextView 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+            android:text="一点味餐厅（新一佳店）"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_marginRight="5dp"       
+            android:ellipsize="end"
+            android:singleLine="true"  
+            android:layout_toLeftOf="@+id/tv_item_allshop_distance"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/tv_item_allshop_name"
+           />
+        <TextView 
+            android:layout_marginLeft="10dp"
+            android:layout_toLeftOf="@+id/scorestar"
+            android:layout_marginRight="2dp"
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:textSize="10sp"
+    		android:textColor="@color/languagegray"
+            android:layout_centerVertical="true"
+            android:id="@+id/tv_item_allshop_distance"
+            android:drawableLeft="@drawable/ic_loc_1"
+            
+            android:drawablePadding="2dp"
+            />
+        <LinearLayout 
+            android:id="@+id/scorestar"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentRight="true"
+            >
+            <include layout="@layout/score_star"/>
+        </LinearLayout>
+    </RelativeLayout>
+    
+    
+    
+    <LinearLayout 
+        android:gravity="center_vertical"
+        android:layout_width="fill_parent"
+    	android:layout_height="60dp"
+    	android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        
+        >
+        
+        <ImageView 
+	    android:layout_width="75dp"
+	    android:layout_height="60dp"
+	    android:scaleType="centerCrop"
+	    android:background="@drawable/img_loading"
+	    android:id="@+id/iv_item_allshop_list"
+	    />
+        
+        
+        <RelativeLayout 
+            android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            >
+            
+            <TextView 
+                android:layout_width="fill_parent"
+	    		android:layout_height="wrap_content"
+                android:text="费罗KTV是一个装修时尚，精美舒适的KTV"
+                android:lines="2"
+                android:gravity="top"
+                android:ellipsize="end"
+                android:textSize="14sp"
+                android:id="@+id/tv_item_allshop_option"
+                />
+            
+            <RelativeLayout 
+                android:layout_width="fill_parent"
+	    		android:layout_height="wrap_content"
+                android:layout_below="@id/tv_item_allshop_option"
+                android:layout_marginTop="5dp"
+                >
+                <include layout="@layout/youhui_card"/>
+                <TextView 
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+                android:text="已售 125"
+                android:textSize="10sp"
+                android:id="@+id/tv_item_allshop_count"
+                android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    
+	<LinearLayout android:id="@+id/layout_0"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    
+	    android:background="@color/white"
+	    android:paddingTop="10dp"
+	    android:orientation="vertical" >
+        
+	    <View android:layout_width="fill_parent"
+	        android:layout_height="1px"
+	        android:background="@drawable/dot_line_s"/>
+	
+	    <RelativeLayout
+	        android:layout_marginTop="10dp"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+	
+	        <LinearLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:layout_centerVertical="true"
+	            android:gravity="center_vertical"
+	            android:orientation="vertical" >
+				<LinearLayout android:layout_width="wrap_content"
+	            	android:layout_height="wrap_content"
+				    android:orientation="horizontal"
+				    android:layout_marginRight="30dp"
+				    android:gravity="center_vertical">
+				    <ImageView android:layout_width="10dp"
+	            		android:layout_height="10dp"
+				        android:src="@drawable/ic_miao"
+				        android:id="@+id/iv_type0"
+				        android:visibility="gone"/>
+				    <TextView android:id="@+id/tv_name0"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="双人牛排美食套餐,提供免费wifi，免费停车"
+		                android:textColor="#404040"
+		                android:layout_marginLeft="5dp"
+		                android:lines="1"
+		                android:ellipsize="end"
+		                android:textSize="15sp" />
+				</LinearLayout>
+	
+	            <RelativeLayout
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginTop="5dp"
+	                android:layout_marginLeft="5dp"
+	                android:gravity="center_vertical"
+	                android:orientation="horizontal" >
+	
+	                <TextView
+	                    android:id="@+id/tv_newprice0"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="88"
+	                    android:textColor="@color/orange"
+	                    android:textSize="16sp" />
+	                
+	                 <TextView android:layout_width="wrap_content"
+				    	android:layout_height="wrap_content"
+			            android:text=""
+			            android:textSize="12sp"
+			            android:textColor="@color/languagegray"
+			            android:id="@+id/unit0"
+			            android:layout_alignBottom="@id/tv_newprice0"
+			            android:layout_toRightOf="@id/tv_newprice0"/>
+	
+	                <TextView
+	                    android:id="@+id/tv_oldprice0"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_toRightOf="@id/unit0"
+			            android:layout_alignBottom="@id/unit0"
+	                    android:layout_marginLeft="10dp"
+	                    android:text="￥138"
+	                    android:textColor="#A0A0A0"
+	                    android:textSize="12sp" />
+	
+	                <TextView
+	                    android:id="@+id/tv_sellcount0"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_toRightOf="@id/tv_oldprice0"
+			            android:layout_alignBottom="@id/tv_oldprice0"
+	                    android:layout_marginLeft="10dp"
+	                    android:text="已售：123"
+	                    android:textColor="#A0A0A0"
+	                    android:textSize="12sp" />
+
+	                <TextView
+	                    android:id="@+id/henxian"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="1dp"
+	                    android:layout_alignTop="@+id/unit0"
+	                    android:layout_toRightOf="@+id/unit0"
+	                    android:background="#A0A0A0"
+	                     />
+
+	                <TextView
+	                    android:id="@+id/textView1"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="1dp"
+	                    android:layout_alignParentBottom="true"
+	                    android:layout_toRightOf="@+id/unit0"
+	                     android:background="#A0A0A0" />
+
+	            </RelativeLayout>
+	        </LinearLayout>
+	    </RelativeLayout>
+	</LinearLayout>
+	    
+	<LinearLayout android:id="@+id/layout_1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/white"
+	    android:paddingTop="10dp"
+	    
+	    android:orientation="vertical" >
+        
+	    <View android:layout_width="fill_parent"
+	        android:layout_height="1px"
+	        android:background="@drawable/dot_line_s"/>
+	
+	    <RelativeLayout
+	        android:layout_marginTop="10dp"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+	
+	        <LinearLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:layout_centerVertical="true"
+	            android:gravity="center_vertical"
+	            android:orientation="vertical" >
+				<LinearLayout android:layout_width="wrap_content"
+	            	android:layout_height="wrap_content"
+				    android:orientation="horizontal"
+				    android:layout_marginRight="30dp"
+				    android:gravity="center_vertical">
+				    <ImageView android:layout_width="10dp"
+	            		android:layout_height="10dp"
+				        android:src="@drawable/ic_miao"
+				        android:id="@+id/iv_type1"
+				        android:visibility="gone"/>
+				    <TextView android:id="@+id/tv_name1"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="双人牛排美食套餐,提供免费wifi，免费停车"
+		                android:textColor="#404040"
+		                android:layout_marginLeft="5dp"
+		                android:lines="1"
+		                android:ellipsize="end"
+		                android:textSize="15sp" />
+				</LinearLayout>
+	
+	            <RelativeLayout
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginTop="5dp"
+	                android:layout_marginLeft="5dp"
+	                android:gravity="center_vertical"
+	                android:orientation="horizontal" >
+	
+	                <TextView
+	                    android:id="@+id/tv_newprice1"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="88"
+	                    android:textColor="@color/orange"
+	                    android:textSize="16sp" />
+	                
+	                 <TextView android:layout_width="wrap_content"
+				    	android:layout_height="wrap_content"
+			            android:text=""
+			            android:textSize="12sp"
+			            android:textColor="@color/languagegray"
+			            android:id="@+id/unit1"
+			            android:layout_alignBottom="@id/tv_newprice1"
+			            android:layout_toRightOf="@id/tv_newprice1"/>
+	
+	                <TextView
+	                    android:id="@+id/tv_oldprice1"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_toRightOf="@id/unit1"
+			            android:layout_alignBottom="@id/unit1"
+	                    android:layout_marginLeft="10dp"
+	                    android:text="￥138"
+	                    android:textColor="#A0A0A0"
+	                    android:textSize="12sp" />
+	
+	                <TextView
+	                    android:id="@+id/tv_sellcount1"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_toRightOf="@id/tv_oldprice1"
+			            android:layout_alignBottom="@id/tv_oldprice1"
+	                    android:layout_marginLeft="10dp"
+	                    android:text="已售：123"
+	                    android:textColor="#A0A0A0"
+	                    android:textSize="12sp" />
+	            </RelativeLayout>
+	        </LinearLayout>
+	    </RelativeLayout>
+	</LinearLayout>
+	
+	<View 
+	    android:layout_width="fill_parent"
+        android:layout_height="1dp"
+	    android:background="@color/linegrey"
+	    android:layout_marginTop="10dp"/>
+</LinearLayout>

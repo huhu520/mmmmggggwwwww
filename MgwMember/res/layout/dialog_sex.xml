@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    xmlns:tools="http://schemas.android.com/tools"  
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:background="#FFFFFF"
+    android:orientation="vertical">    
+    
+    <TextView android:id="@+id/tip"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:textColor="#75ae43"
+        android:paddingLeft="15dp"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+        android:text="性别 "
+        android:paddingRight="200dp"
+        android:background="#FFFFFF"/>
+    
+    <TextView android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#CCCCCC"/>
+    
+    <TextView android:id="@+id/male"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:textColor="#808080"
+        android:paddingLeft="15dp"
+        android:gravity="center_vertical"
+        android:textSize="15sp"
+        android:text="男"
+        android:background="@drawable/btn_white_click"/>
+    
+    <TextView android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#CCCCCC"/>
+    
+    <TextView android:id="@+id/female"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:textColor="#808080"
+        android:paddingLeft="15dp"
+        android:gravity="center_vertical"
+        android:textSize="15sp"
+        android:text="女"
+        android:background="@drawable/btn_white_click"/>
+</LinearLayout>  

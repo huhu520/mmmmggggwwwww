@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <include layout="@layout/activity_title_bar" />
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/rl_title_root"
+        android:scrollbars="none" />
+
+    <RelativeLayout
+        android:id="@+id/error_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="40dip"
+        android:background="#CCCCCC"
+        android:visibility="invisible" >
+
+        <include layout="@layout/include_error_load" />
+    </RelativeLayout>
+
+    <!-- <include layout="@layout/include_share_bar"/> -->
+
+    <RelativeLayout
+        android:id="@+id/dialog"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone"
+        android:background="#50000000" >
+    </RelativeLayout>
+
+</RelativeLayout>

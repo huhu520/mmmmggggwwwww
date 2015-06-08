@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg2"
+    android:orientation="vertical" >
+    
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+    	android:layout_height="44dp"
+	    android:background="@color/slowblue2"
+	    
+	    >
+	    <Button 
+	        android:layout_centerVertical="true"
+	        android:layout_width="44dp"
+    		android:layout_height="44dp"
+	        android:background="@drawable/back"
+	        android:id="@+id/bt_titlebar_left"
+	        
+	        />
+	    <TextView 
+	        android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+	        android:text="具体商家的名称"
+	        android:textSize="18sp"
+	        android:id="@+id/tv_title_cent"
+	        android:textColor="@color/white"
+	        android:layout_centerInParent="true"
+	        />
+	    
+	    
+	    
+	</RelativeLayout>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+    	android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="@color/white"
+        >
+        <LinearLayout 
+            android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:id="@+id/ll_shopdetail_shopkind"
+            >
+            <TextView 
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+                android:text="商品分类"
+                android:textSize="12sp"
+                android:id="@+id/tv_shop_detail_shopkind"
+                android:drawableLeft="@drawable/ic_bussiness_type"
+                android:textColor="@color/languagegray"
+                android:drawablePadding="10dp"
+                />
+            
+            <ImageView 
+                android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+                android:src="@drawable/ic_menu_0"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="10dp"
+                
+                />
+            
+        </LinearLayout>
+        <View 
+            android:layout_width="1dp"
+    		android:layout_height="30dp"
+            android:background="@color/linegrey"
+            
+            
+            />
+        <LinearLayout 
+            android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:id="@+id/ll_shop_detail_order"
+            >
+            <TextView 
+                android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+                android:text="最大销量"
+                android:textSize="12sp"
+                android:textColor="@color/languagegray"
+                android:id="@+id/tv_shop_detail_order"
+                />
+            
+            
+            
+        </LinearLayout>
+        <View 
+            android:layout_width="1dp"
+    		android:layout_height="30dp"
+            android:background="@color/linegrey"
+            
+            
+            />
+        <LinearLayout 
+            android:layout_width="fill_parent"
+    		android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:id="@+id/ll_shop_detail_youhui"
+            >
+            <TextView 
+                android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+                android:text="最大优惠"
+                android:textSize="12sp"
+                android:textColor="@color/languagegray"
+                android:id="@+id/tv_shop_detail_youhui"
+                />
+            
+            
+            
+        </LinearLayout>
+        
+        
+        
+    </LinearLayout>
+    <View 
+        android:layout_width="fill_parent"
+    	android:layout_height="1dp"
+    	android:background="#e0e0e0"
+    	
+        
+        />
+    
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/lv_product_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="0px"
+        android:cacheColorHint="#ff0000"
+        android:divider="#e0e0e0"
+        android:fadingEdge="none"
+        android:scrollbars="none"
+         />
+</LinearLayout>

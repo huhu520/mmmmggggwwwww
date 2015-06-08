@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_top_bar"
+        android:background="@color/top_bar_normal_bg"
+        android:gravity="center_vertical" >
+
+        <include layout="@layout/commom_back_btn" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="添加好友"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+   
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_margin="10dp" >
+
+        <EditText
+            android:id="@+id/edit_note"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#ECECEC"
+            android:drawableRight="@drawable/search_bar_icon_normal"
+            android:hint="登录账号/昵称"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            android:textColorHint="#555555"
+            android:textSize="14sp" />
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right"
+            android:background="#00000000"
+            android:id="@+id/search"
+            android:onClick="searchContact" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mm_listitem"
+        android:visibility="visible" >
+
+        <ListView 
+          android:id="@+id/listview"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:divider="@null"
+          ></ListView>
+    </LinearLayout>
+
+</LinearLayout>

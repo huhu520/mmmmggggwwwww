@@ -1,0 +1,233 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/mgwAndroid/!svn/ver/159/membertest/MgwMember/src/com/hx/hxchat/activity
+END
+BaiduMapActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/activity/BaiduMapActivity.java
+END
+ImageGridActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/activity/ImageGridActivity.java
+END
+ShowNormalFileActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/activity/ShowNormalFileActivity.java
+END
+ContextMenu.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/activity/ContextMenu.java
+END
+ContactlistFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/mgwAndroid/!svn/ver/160/membertest/MgwMember/src/com/hx/hxchat/activity/ContactlistFragment.java
+END
+AddContactActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/activity/AddContactActivity.java
+END
+NewGroupActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/mgwAndroid/!svn/ver/160/membertest/MgwMember/src/com/hx/hxchat/activity/NewGroupActivity.java
+END
+GroupBlacklistActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/mgwAndroid/!svn/ver/149/membertest/MgwMember/src/com/hx/hxchat/activity/GroupBlacklistActivity.java
+END
+CallActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/activity/CallActivity.java
+END
+VideoCallActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/activity/VideoCallActivity.java
+END
+ChatActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/mgwAndroid/!svn/ver/158/membertest/MgwMember/src/com/hx/hxchat/activity/ChatActivity.java
+END
+GroupsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/mgwAndroid/!svn/ver/160/membertest/MgwMember/src/com/hx/hxchat/activity/GroupsActivity.java
+END
+GroupPickContactsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/mgwAndroid/!svn/ver/149/membertest/MgwMember/src/com/hx/hxchat/activity/GroupPickContactsActivity.java
+END
+SettingActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/mgwAndroid/!svn/ver/158/membertest/MgwMember/src/com/hx/hxchat/activity/SettingActivity.java
+END
+ChatOldActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/mgwAndroid/!svn/ver/149/membertest/MgwMember/src/com/hx/hxchat/activity/ChatOldActivity.java
+END
+EditActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/mgwAndroid/!svn/ver/159/membertest/MgwMember/src/com/hx/hxchat/activity/EditActivity.java
+END
+ShowBigImage.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/activity/ShowBigImage.java
+END
+RegisterActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/activity/RegisterActivity.java
+END
+ImageGridFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/activity/ImageGridFragment.java
+END
+GroupSimpleDetailActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/mgwAndroid/!svn/ver/149/membertest/MgwMember/src/com/hx/hxchat/activity/GroupSimpleDetailActivity.java
+END
+ForwardMessageActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/activity/ForwardMessageActivity.java
+END
+HXBaseActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/mgwAndroid/!svn/ver/160/membertest/MgwMember/src/com/hx/hxchat/activity/HXBaseActivity.java
+END
+DiagnoseActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/activity/DiagnoseActivity.java
+END
+ShowVideoActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/activity/ShowVideoActivity.java
+END
+BlacklistActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/mgwAndroid/!svn/ver/157/membertest/MgwMember/src/com/hx/hxchat/activity/BlacklistActivity.java
+END
+ChatHistoryFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/mgwAndroid/!svn/ver/158/membertest/MgwMember/src/com/hx/hxchat/activity/ChatHistoryFragment.java
+END
+RecorderVideoActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/activity/RecorderVideoActivity.java
+END
+PublicGroupsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/mgwAndroid/!svn/ver/160/membertest/MgwMember/src/com/hx/hxchat/activity/PublicGroupsActivity.java
+END
+ExitGroupDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/activity/ExitGroupDialog.java
+END
+AlertDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/activity/AlertDialog.java
+END
+ChatHistoryFragmentCopy.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/mgwAndroid/!svn/ver/160/membertest/MgwMember/src/com/hx/hxchat/activity/ChatHistoryFragmentCopy.java
+END
+VoiceCallActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/activity/VoiceCallActivity.java
+END
+ChatSingleSettingActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/mgwAndroid/!svn/ver/157/membertest/MgwMember/src/com/hx/hxchat/activity/ChatSingleSettingActivity.java
+END
+ChatAllHistoryFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/activity/ChatAllHistoryFragment.java
+END
+NewFriendsMsgActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/mgwAndroid/!svn/ver/160/membertest/MgwMember/src/com/hx/hxchat/activity/NewFriendsMsgActivity.java
+END
+SettingsFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/activity/SettingsFragment.java
+END
+GroupDetailsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/mgwAndroid/!svn/ver/160/membertest/MgwMember/src/com/hx/hxchat/activity/GroupDetailsActivity.java
+END
+PickContactNoCheckboxActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/mgwAndroid/!svn/ver/148/membertest/MgwMember/src/com/hx/hxchat/activity/PickContactNoCheckboxActivity.java
+END

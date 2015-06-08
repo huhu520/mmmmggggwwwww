@@ -1,0 +1,36 @@
+<TabHost   xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/tb_shop_photo"
+  android:layout_width="fill_parent"
+  android:background="@color/bg2"
+  android:layout_height="fill_parent">
+  <LinearLayout android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent" >
+        
+    <include layout="@layout/title_bar_withshare" />
+       <TabWidget android:id="@android:id/tabs"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+       <FrameLayout android:id="@android:id/tabcontent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+	    
+           <GridView
+        android:id="@+id/gv_shop_pooto"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg2"
+        android:gravity="center"
+        android:horizontalSpacing="15dp"
+        android:numColumns="2"
+        
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="15dp" />
+           
+           
+           
+           
+       </FrameLayout>
+  </LinearLayout>
+</TabHost>

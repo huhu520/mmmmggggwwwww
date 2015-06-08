@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/layout">
+
+    <include layout="@layout/title_bar_withshare" />
+    
+    <RelativeLayout android:id="@+id/toplayout"
+		android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp" >
+		<TextView android:id="@+id/tv_good_detail_nowprice"
+			android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="88"
+	        android:textColor="@color/languagegray3"
+	        android:textSize="30sp" />
+	    <TextView android:id="@+id/tv_good_detail_yuan"
+	    	android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_toRightOf="@id/tv_good_detail_nowprice"
+	        android:text="元"
+	        android:layout_alignBottom="@id/tv_good_detail_nowprice"
+	        android:textColor="@color/languagegray3"
+		    android:textSize="20sp" />
+		<TextView android:id="@+id/tv_good_detail_oldprice"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="10dp"
+	        android:layout_toRightOf="@id/tv_good_detail_yuan"
+		    android:text="98元"
+	        android:layout_alignBottom="@id/tv_good_detail_nowprice"
+		    android:textColor="@color/languagegray"
+		    android:textSize="20sp" />
+		<Button android:id="@+id/bt_good_detail_buy"
+	        android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+		    android:background="@drawable/select_orange_btn"
+		    android:paddingBottom="10dp"
+	        android:paddingLeft="20dp"
+	        android:paddingRight="20dp"
+	        android:paddingTop="10dp"
+	        android:text="立即抢购"
+		    android:textColor="@color/white"
+	        android:textSize="15sp" />
+    </RelativeLayout>
+            
+		<View android:layout_width="fill_parent"
+		    android:layout_height="1px"
+		    android:background="#CCCCCC"/>
+	<RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#50000000">
+		<RelativeLayout android:id="@+id/dialog"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#50000000">
+
+    <RelativeLayout  
+        android:layout_width="180dp"  
+        android:layout_height="180dp"  
+        android:layout_centerInParent="true"  
+        android:background="@drawable/loading_bg" >  
+  
+        <LinearLayout  
+            android:layout_width="fill_parent"  
+            android:layout_height="fill_parent"  
+            android:layout_alignParentLeft="true"  
+            android:layout_alignParentTop="true"  
+            android:gravity="center"  
+            android:orientation="vertical" >  
+  
+            <ProgressBar  
+                android:id="@+id/progressBar1"  
+                style="?android:attr/progressBarStyleLarge"  
+                android:layout_width="wrap_content"  
+                android:layout_height="wrap_content"  
+                android:layout_gravity="center_horizontal" />  
+  
+            <TextView  
+                android:layout_width="wrap_content"  
+                android:layout_height="wrap_content"  
+                android:layout_marginTop="10dp"  
+                android:text="正在加载数据 ..."  
+                android:textColor="#fff"  
+                android:textSize="20sp" />  
+        </LinearLayout>  
+  
+    </RelativeLayout>  
+    </RelativeLayout>
+		
+    <WebView android:id="@+id/webview"
+    	android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    </RelativeLayout>
+</LinearLayout>

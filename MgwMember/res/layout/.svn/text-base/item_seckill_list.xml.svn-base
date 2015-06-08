@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="10dp"
+    android:background="#00000000"
+    android:orientation="vertical" >
+    
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="#f9f9f9"
+        android:orientation="horizontal" >
+    
+	    <RelativeLayout android:layout_width="75dp"
+	    	android:layout_height="75dp">
+	        <ImageView android:layout_centerVertical="true"
+			    android:layout_width="75dp"
+			    android:layout_height="75dp"
+			    android:src="@drawable/img_loading"
+			    android:scaleType="centerCrop"
+			    android:id="@+id/iv_item_seckill_list"/>
+	        <TextView android:gravity="center"
+	            android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content"
+	            android:text="已售：1528"
+	            android:textSize="12sp"
+	            android:textColor="#FFFFFF"
+	            android:background="@color/translucent_70"
+	            android:layout_alignParentBottom="true"
+	            android:padding="2dp"
+	            android:id="@+id/tv_item_seckill_sellcount"/>
+	    </RelativeLayout>
+    
+    	<RelativeLayout android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+	        android:paddingLeft="5dp"
+	        android:paddingRight="5dp"
+	        android:paddingTop="5dp"
+	        android:paddingBottom="5dp">
+	        <TextView android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+	            android:text="千吉西饼：代金券一张，全场通用，可叠加使用"
+	            android:textSize="15sp"
+	            android:textColor="@color/black"
+	            android:id="@+id/tv_item_seckill_list_secname"
+	            android:lines="2"
+	            android:ellipsize="end"
+	            android:visibility="gone"/>
+	        <TextView android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+	            android:text="643m"
+	            android:textSize="12sp"
+	            android:textColor="#808080"
+	            android:id="@+id/tv_item_seckill_list_distance"
+	            android:layout_alignParentRight="true"
+	            android:layout_alignParentTop="true" />
+	        <TextView 
+	            android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+	            android:text="千吉西饼"
+	            android:textSize="15sp"
+	            android:textColor="@color/black"
+	            android:id="@+id/tv_item_seckill_list_name"
+	            android:layout_toLeftOf="@id/tv_item_seckill_list_distance"
+	            android:ellipsize="end"
+	            android:layout_alignParentLeft="true"
+	            android:layout_marginRight="10dp"
+	            android:lines="2"/>
+	        
+	        <TextView android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+	            android:text="千吉西饼：代金券一张，全场通用，可叠加使用"
+	            android:lines="2"
+	            android:visibility="gone"
+	            android:textSize="13sp"
+	            android:ellipsize="end"
+	            android:textColor="#808080"
+	            android:id="@+id/tv_item_seckill_list_option"
+	            android:layout_centerInParent="true"
+	            android:layout_alignParentLeft="true"/>
+	        
+	        <TextView android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+	            android:text="秒杀价10元"
+	            android:textSize="10sp"
+	            android:textColor="@color/white"
+	            android:background="@drawable/bg_orange"
+	            android:paddingLeft="5dp"
+	            android:paddingRight="5dp"
+	            android:paddingTop="2dp"
+	            android:paddingBottom="2dp"
+	            android:id="@+id/tv_item_seckill_list_secprice"
+	            android:layout_alignParentBottom="true"/>
+	        
+	        <TextView android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+	            android:text="15.0"
+	            android:textSize="18sp"
+	            android:textColor="#32b9aa"
+	            android:layout_marginLeft="5dp"
+	            android:layout_alignBottom="@id/tv_item_seckill_list_secprice"
+	            android:layout_toRightOf="@id/tv_item_seckill_list_secprice"
+	            android:id="@+id/tv_item_seckill_list_nowprice"/>
+	        <TextView android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+	            android:text="元"
+	            android:textSize="12sp"
+	            android:textColor="@color/languagegray"
+	            android:layout_alignBottom="@id/tv_item_seckill_list_secprice"
+	            android:layout_toRightOf="@id/tv_item_seckill_list_nowprice"
+	            android:id="@+id/tv_item_seckill_list_yuan"
+	             android:layout_alignParentBottom="true" />
+	        <TextView 
+	              android:layout_marginLeft="5dp"
+	            android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+	            android:text="20.0"
+	            android:textSize="12sp"
+	            android:textColor="@color/languagegray"
+	            android:layout_alignBottom="@id/tv_item_seckill_list_secprice"
+	            android:layout_toRightOf="@id/tv_item_seckill_list_yuan"
+	            android:id="@+id/tv_item_seckill_list_oldprice"
+	            android:layout_alignParentBottom="true"
+	            android:lines="1"
+	            android:ellipsize="end"
+	            />
+	    </RelativeLayout>
+	</LinearLayout>
+</LinearLayout>

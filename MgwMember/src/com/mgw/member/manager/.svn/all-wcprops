@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/mgwAndroid/!svn/ver/158/membertest/MgwMember/src/com/mgw/member/manager
+END
+SkinChangeManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/mgw/member/manager/SkinChangeManager.java
+END
+BeepManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/mgwAndroid/!svn/ver/128/membertest/MgwMember/src/com/mgw/member/manager/BeepManager.java
+END
+BaseApplication.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/mgwAndroid/!svn/ver/160/membertest/MgwMember/src/com/mgw/member/manager/BaseApplication.java
+END
+GreenDaoDBHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/mgwAndroid/!svn/ver/158/membertest/MgwMember/src/com/mgw/member/manager/GreenDaoDBHelper.java
+END
+PreferencesFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/mgw/member/manager/PreferencesFragment.java
+END
+LinkToBeanManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/mgwAndroid/!svn/ver/158/membertest/MgwMember/src/com/mgw/member/manager/LinkToBeanManager.java
+END
+PreferencesActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/mgw/member/manager/PreferencesActivity.java
+END
+DownloadManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/mgw/member/manager/DownloadManager.java
+END
+UpdateManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/mgwAndroid/!svn/ver/140/membertest/MgwMember/src/com/mgw/member/manager/UpdateManager.java
+END
+ThreadManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/mgw/member/manager/ThreadManager.java
+END
+CrashHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/mgwAndroid/!svn/ver/140/membertest/MgwMember/src/com/mgw/member/manager/CrashHandler.java
+END

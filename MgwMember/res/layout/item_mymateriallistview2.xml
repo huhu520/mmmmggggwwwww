@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bound_line"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+    <RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+            <TextView android:id="@+id/tv_mymaterial2_shopname"
+                android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="#333333"
+	            android:textSize="15sp"
+	            android:textStyle="bold"
+	            android:text="婚纱摄影（五一店）"/>
+            <TextView android:id="@+id/tv_mymaterial2_distance"
+                android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+	            android:layout_marginRight="13.5dp"	 
+                android:textColor="#808080"          	            
+	            android:textSize="15sp"
+	            />
+        </RelativeLayout>
+<View android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#CCCCCC"/>
+
+<ImageView
+    android:id="@+id/imageView_mymaterialitem2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="7dp"
+    android:layout_marginLeft="6dp"
+    android:layout_marginRight="6dp"
+    android:adjustViewBounds="true"
+    android:scaleType="centerCrop"
+    android:src="@drawable/img_loading" />
+
+<RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp" >
+            <TextView android:id="@+id/tv_mymaterialitem2_couponname"
+                android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"	        
+	            android:textColor="#333333"
+	            android:textSize="16sp"
+	            android:textStyle="bold"	            
+	            android:layout_alignParentLeft="true"
+	            android:layout_toLeftOf="@+id/tv_mymaterialitem2_code"
+	            android:text="微新婚纱摄影500元抵用券"/>
+
+            <TextView
+                android:id="@+id/tv_mymaterialitem2_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                android:text="X-FMC24633C"
+                android:textColor="#808080"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+<RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+           >
+             <TextView
+                android:id="@+id/tv_mymaterialitem2_validstart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="已过期"
+                android:textColor="#333333"
+                android:textSize="12sp" />
+             
+            <Button
+                android:id="@+id/button_mymaterialitem2_present"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="14dp"
+                android:background="@drawable/bg_grey"
+                android:paddingBottom="5dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"               
+                android:paddingTop="5dp"
+                android:text="赠送朋友"
+                android:textColor="#ffffff"
+                android:textSize="15sp" />
+
+            
+
+        </RelativeLayout>
+    
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="44dp" 
+     android:background="@color/slowblue2">
+    
+    <Button android:layout_centerVertical="true"
+        android:layout_width="44dp"
+    	android:layout_height="44dp"
+        android:background="@drawable/back"
+        android:id="@+id/bt_titlebar_left"/>
+    
+    <TextView 
+        android:gravity="center"
+         android:layout_centerVertical="true"
+         android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+        android:id="@+id/tv_titlebar_right"
+        android:text="分享"
+        android:visibility="invisible"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:drawableLeft="@drawable/ic_share"
+        android:drawablePadding="10dp"
+        android:layout_marginRight="10dp"
+        />
+	 <TextView
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:ellipsize="end"
+        android:lines="1"
+        android:textColor="@color/white"
+        android:id="@+id/tv_title_cent"
+        android:layout_toRightOf="@id/bt_titlebar_left"
+        android:layout_toLeftOf="@id/tv_titlebar_right"/>
+</RelativeLayout>

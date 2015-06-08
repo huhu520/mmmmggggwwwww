@@ -1,0 +1,70 @@
+10
+
+dir
+159
+https://ydxz-02714a9ef7/svn/mgwAndroid/membertest/MgwMember/src/com/mgw/member
+https://ydxz-02714a9ef7/svn/mgwAndroid
+
+
+
+2015-06-02T06:36:34.948250Z
+159
+hy
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+76d376e9-2809-614f-afc6-ee7041a22ad6
+
+bean
+dir
+
+constant
+dir
+
+db
+dir
+
+factory
+dir
+
+http
+dir
+
+interfaces
+dir
+
+js
+dir
+
+manager
+dir
+
+ottoEvent
+dir
+
+service
+dir
+
+ui
+dir
+
+uitls
+dir
+
+updateApp
+dir
+
+wxapi
+dir
+

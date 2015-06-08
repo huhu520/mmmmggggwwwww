@@ -1,0 +1,36 @@
+1.mgw 采用fragment为html提供显示容器，底部采用4个tab控制不同fragment切换。
+2.mgw目录说明：
+-src
+--com。mgw
+----bean//数据实体类
+
+----db//数据库操作模块
+    --dao
+    ----annotation //注解绑定数据库字段
+    ----base//dao文件，定义数据库公共操作接口
+    ----impl//实体数据库操作实现类
+    ----js2db//js操作数据库
+    --domain//数据库实体类 
+    
+----http//封装网络请求，图片加载，json解析
+    --image//图片加载
+    --protocol//网络请求数据，json解析
+    
+----js//js和native交互封装类库
+
+----manager//程序退出，Appplication、下载模块、解压缩模块、线程池，皮肤更换等
+
+----ui//前台显示界面
+    --activity//所有的activity
+    --fragment//碎片库
+   	--widget//view控件库 
+   	
+----uitls//常用的工具类（已封装）
+
+数据库操作模块说明：
+①DBHelper中创建表，表名和列名使用常量
+②完成该表对应的实体创建
+③指定好表名与实体的对应关系（TableName），指定好列名与属性的对应关系
+④写实体操作接口、处理该接口的实现类，必须为DAOSupport的子类
+⑤通过该实现类处理CRUD的操作
+     

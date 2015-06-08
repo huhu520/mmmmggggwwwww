@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+	android:focusableInTouchMode="true"
+	android:background="@color/bg2"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_bar_withshare"/>
+     <AutoCompleteTextView
+        android:id="@+id/actv_citylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionHint="请选择城市"
+        android:completionThreshold="1"
+        android:dropDownHorizontalOffset="0px"
+        android:ems="10"
+        android:imeOptions="actionSearch"
+        android:singleLine="true" 
+        android:hint="输入城市名"
+        android:drawableLeft="@drawable/search_bar_icon_normal"
+        android:drawablePadding="10dp"
+        android:textSize="12sp"
+        android:layout_marginLeft="15dp"
+	    android:layout_marginRight="15dp"
+	    android:layout_marginTop="15dp"
+	    android:layout_marginBottom="15dp"
+        >
+    </AutoCompleteTextView>
+     
+    <RelativeLayout
+        android:id="@+id/city_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+        
+        <ListView android:id="@+id/city_list"
+      		android:layout_width="fill_parent"
+       		android:layout_height="fill_parent"
+	        android:layout_margin="0px"
+	        android:cacheColorHint="#00000000"
+	        android:divider="#CCCCCC"
+	        android:dividerHeight="1px"
+	        android:fadingEdge="none"
+	        android:fastScrollEnabled="true"
+	        android:focusable="true"
+	        android:scrollbars="none"/>
+		
+        <com.zxing.view.MyLetterListView
+            android:id="@+id/cityLetterListView"
+            android:layout_width="30dip"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+             />
+    
+	</RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <include layout="@layout/city_search_title"/>
+        
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/home_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="0px"
+        android:cacheColorHint="#ff0000"
+        android:divider="#e0e0e0"
+        android:fadingEdge="none"
+        android:scrollbars="none"/>
+</LinearLayout>

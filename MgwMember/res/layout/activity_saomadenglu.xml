@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#ffffff">
+
+    <ImageView
+        android:id="@+id/iv_smdlbj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/smdlbij" />
+
+    <TextView
+        android:id="@+id/tv_attention_smdl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="#444444"
+        android:textSize="18sp"
+        android:text="网页版美顾问登录确认" />
+
+    <Button
+        android:id="@+id/btn_dlmgw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_attention_smdl"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"
+        android:textSize="18sp"
+        android:background="#4ebcd3"
+        android:textColor="#ffffff"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="登录网页版美顾问" />
+
+    <TextView
+        android:id="@+id/tv_smdqx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:textColor="#4ebcd3"
+        android:textSize="16sp"
+        android:text="取消登录" />
+
+</RelativeLayout>

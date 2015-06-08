@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+       android:layout_height="@dimen/height_top_bar"
+        android:background="#17AEC9">
+        <Button
+            android:id="@+id/ibBack_vipmaterial"
+            android:layout_centerVertical="true"
+            android:layout_width="44dp"
+    	    android:layout_height="44dp"
+            android:background="@drawable/back" />
+
+         <TextView
+             android:id="@+id/tv_title"
+             android:layout_width="wrap_content"
+             android:layout_height="fill_parent"
+             android:layout_alignParentTop="true"
+             android:layout_centerHorizontal="true"
+             android:ellipsize="end"
+             android:gravity="center_vertical"
+             android:singleLine="true"
+             android:text="会员福利"
+             android:textColor="#ffffff"
+             android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listView_vipmaterial"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:layout_marginTop="9dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:divider="#00000000"
+        android:scrollbars="none"
+        android:dividerHeight="9dp">
+    </ListView>
+
+</LinearLayout>

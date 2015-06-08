@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg2"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_bar_withshare" />
+    <ScrollView android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:scrollbars="none">
+		<LinearLayout android:layout_width="match_parent"
+    		android:layout_height="match_parent"
+    		android:orientation="vertical">
+	    	<RelativeLayout android:layout_width="fill_parent"
+	        	android:layout_height="240dp"
+	        	android:background="@color/white" >
+	        	<ImageView android:id="@+id/iv_shop_detailintroduce_photo"
+		            android:layout_width="match_parent"
+		            android:layout_height="200dp"
+		            android:scaleType="centerCrop"
+		             android:adjustViewBounds="true"
+		            android:src="@drawable/img_loading"/>
+	        	<ImageView android:id="@+id/iv_shop_detailintroduce_icon"
+		            android:layout_width="80dp"
+		            android:layout_height="80dp"
+		            android:layout_marginLeft="15dp"
+		            android:padding="2dp"
+		            android:layout_alignParentBottom="true"
+		            android:layout_marginBottom="10dp"
+		            android:src="@drawable/img_loading"
+		            android:scaleType="centerCrop" 
+		            android:background="#CCCCCC"/>
+	        	<TextView android:layout_width="80dp"
+		            android:layout_marginLeft="15dp"
+	        	    android:layout_height="16dp"
+	        	    android:text="商家相册"
+	        	    android:gravity="center"
+	        	    android:layout_alignBottom="@id/iv_shop_detailintroduce_icon"
+	        	    android:textColor="#FFFFFF"
+	        	    android:background="#50000000"/>
+		        <TextView android:id="@+id/tv_shop_detailintroduce_name"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_below="@id/iv_shop_detailintroduce_photo"
+		            android:layout_marginLeft="10dp"
+		            android:layout_marginTop="5dp"
+		            android:layout_toRightOf="@id/iv_shop_detailintroduce_icon"
+		            android:background="@color/white"
+		            android:gravity="center_vertical"
+		            android:text=""
+		            android:textColor="@color/languagegray"
+		            android:textSize="16sp" />
+		        <Button android:id="@+id/bt_shop_detailintroduce_takecare"
+		            android:layout_width="wrap_content"
+		            android:layout_height="32dp"
+		            android:layout_alignParentRight="true"
+		            android:layout_marginRight="15dp"
+		            android:layout_alignParentBottom="true"
+		            android:layout_marginBottom="60dp"
+		            android:background="@drawable/select_orange_btn"
+		            android:paddingLeft="15dp"
+		            android:paddingRight="15dp"
+		            android:text="关注"
+		            android:textColor="@color/white"
+		            android:textSize="15sp" />
+		        <Button android:id="@+id/compile"
+		            android:layout_width="wrap_content"
+		            android:layout_height="32dp"
+		            android:layout_marginRight="15dp"
+		            android:layout_alignParentBottom="true"
+		            android:layout_marginBottom="60dp"
+		            android:background="@drawable/bg_grey"
+		            android:layout_toLeftOf="@id/bt_shop_detailintroduce_takecare"
+		            android:paddingLeft="15dp"
+		            android:paddingRight="15dp"
+		            android:text="投诉"
+		            android:textColor="@color/white"
+		            android:textSize="15sp" />
+		    </RelativeLayout>
+
+		    <LinearLayout android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:background="@color/white"
+		        android:gravity="center_vertical"
+		        android:paddingBottom="10dp"
+		        android:orientation="horizontal">
+		
+		        <LinearLayout android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="100"
+		            android:gravity="center"
+		            android:orientation="vertical" >
+		            <TextView android:id="@+id/tv_rebate"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="%"
+		                android:textColor="#585858"
+		                android:textSize="16sp" />
+		            <TextView android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="返利"
+		                android:textColor="#585858"
+		                android:textSize="12sp" />
+		        </LinearLayout>
+		
+		        <View android:layout_width="1px"
+		            android:layout_height="30dp"
+		            android:layout_weight="0"
+		            android:background="@color/linegrey"/>
+		
+		        <LinearLayout android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="100"
+		            android:gravity="center"
+		            android:orientation="vertical" >
+		            <TextView android:id="@+id/tv_discount"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="7.5"
+		                android:textColor="#585858"
+		                android:textSize="16sp" />
+		            <TextView  android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="折起"
+		                android:textColor="#585858"
+		                android:textSize="12sp" />
+		        </LinearLayout>
+		
+		        <View android:layout_width="1px"
+		            android:layout_height="30dp"
+		            android:layout_weight="0"
+		            android:background="@color/linegrey" />
+		
+		        <LinearLayout android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="100"
+		            android:gravity="center"
+		            android:orientation="vertical" >
+		            <include layout="@layout/score_star" />
+		            <TextView android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_marginTop="5dp"
+		                android:text="诚信"
+		                android:textColor="#585858"
+		                android:textSize="12sp" />
+		        </LinearLayout>
+		
+		        <View android:layout_width="1px"
+		            android:layout_height="30dp"
+		            android:layout_weight="0"
+		            android:background="#e0e0e0" />
+		
+		        <LinearLayout android:id="@+id/bt_chat"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="100"
+		            android:gravity="center"
+		            android:orientation="vertical" >
+		            <ImageView android:layout_width="20dp"
+		                android:layout_height="20dp"
+		                android:background="@drawable/select_chat_btn" />
+		            <TextView android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="咨询"
+		                android:textColor="#585858"
+		                android:textSize="12sp" />
+		        </LinearLayout>
+		    </LinearLayout>
+
+    	<View android:layout_width="fill_parent"
+        	android:layout_height="1px"
+        	android:background="@color/linegrey" />
+
+    	<RelativeLayout android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:background="@color/white"
+        	android:padding="10dp" >
+
+	        <TextView  android:id="@+id/tv_distance"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+	            android:layout_centerVertical="true"
+	            android:textColor="#808080"
+	            android:textSize="12sp" />
+	
+	        <TextView  android:id="@+id/tv_location"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:layout_centerVertical="true"
+	            android:layout_marginRight="0dp"
+	            android:layout_toLeftOf="@id/tv_distance"
+	            android:drawableLeft="@drawable/ic_loc_1"
+	            android:drawablePadding="10dp"
+	            android:ellipsize="end"
+	            android:gravity="center_vertical"
+	            android:lines="1"
+	            android:text=""
+	            android:textColor="#404040"
+	            android:textSize="15sp" />
+	    </RelativeLayout>
+	<View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/linegrey" />
+    
+     <com.hx.hxchat.widget.ExpandListvview
+            android:id="@+id/lv_shop_detail_sec"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0px"
+            android:cacheColorHint="#ff0000"
+            android:divider="#e0e0e0"
+            android:dividerHeight="1dp"
+            android:fadingEdge="none"
+            android:scrollbars="none" />
+    
+    <LinearLayout android:id="@+id/layout0"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dip"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/bound_line">
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_bussiness_info_s"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="店家推荐"
+            android:textSize="15sp" />
+        <View android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/linegrey" />
+        <com.hx.hxchat.widget.ExpandGridView
+            android:id="@+id/gv_shop_detail_introduce"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center"
+            android:horizontalSpacing="10dp"
+            android:numColumns="2"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="10dp" />
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/layout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dip"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/bound_line">
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_bussiness_info_s"
+            android:id="@+id/title_more"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="更多商品"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/linegrey" />
+
+        <com.hx.hxchat.widget.ExpandListvview
+            android:id="@+id/lv_shop_detail_more"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0px"
+            android:cacheColorHint="#ff0000"
+            android:divider="#00000000"
+            android:dividerHeight="1dp"
+            android:fadingEdge="none"
+            android:scrollbars="none" />
+
+        <LinearLayout  android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+            <TextView android:id="@+id/tv_findall_product"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textColor="#404040"
+                android:padding="10dp"
+                android:text="查看全部  ↓"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+        <TextView android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:textSize="12sp" />
+	</LinearLayout>
+	</ScrollView>
+</LinearLayout>

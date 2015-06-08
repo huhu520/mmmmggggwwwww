@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:background="@drawable/bound_line"      
+    android:orientation="vertical" >
+
+    <RelativeLayout android:layout_width="fill_parent"
+            android:descendantFocusability="blocksDescendants"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+            <TextView android:id="@+id/tv_vipmaterialitem_shopname"
+                android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="#333333"
+	            android:textSize="15sp"
+	            android:textStyle="bold"
+	            android:text="婚纱摄影（五一店）"/>
+            <TextView android:id="@+id/tv_vipmaterialitem_distance"
+                android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+	            android:layout_marginRight="13.5dp"	 
+                android:textColor="#808080"          	            
+	            android:textSize="15sp"
+	            />
+        </RelativeLayout>
+<TextView android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#CCCCCC"/>
+
+<ImageView
+    android:id="@+id/imageView_vipmaterialitem"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:layout_marginTop="7dp"
+    android:layout_marginLeft="6dp"
+    android:layout_marginRight="6dp"
+    android:adjustViewBounds="true"
+    android:scaleType="fitXY"   
+   
+    android:src="@drawable/img_loading"
+     />
+
+<RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:descendantFocusability="blocksDescendants"           
+            android:padding="10dp" >
+            <TextView android:id="@+id/tv_vipmaterialitem_couponname"
+                android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"	        
+	            android:textColor="#333333"
+	            android:textSize="16sp"
+	            android:textStyle="bold"
+	            android:layout_toLeftOf="@+id/tv_vipmaterialitem_number"
+	            android:layout_alignParentLeft="true"
+	            android:text="微新婚纱摄影500元抵用券"/>
+
+            <TextView
+                android:id="@+id/tv_vipmaterialitem_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                android:layout_marginRight="4dp"
+                android:layout_alignParentRight="true"
+                android:textColor="#808080"
+                android:text="已领取：1024"               
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:descendantFocusability="blocksDescendants"            
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"            
+            android:layout_marginBottom="10dp"
+           >
+             <TextView
+                android:id="@+id/tv_vipmaterialitem_validstart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="有效期：2014-11-11"
+                android:textColor="#333333"
+                android:textSize="12sp" />
+             <TextView
+                android:id="@+id/tv_vipmaterialitem_validend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/tv_vipmaterialitem_validstart"
+                android:textColor="#333333"
+                android:textSize="12sp"
+                android:text="-2015-2-11" />
+           <Button
+                android:id="@+id/button_vipmaterialitem_get"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"        
+                android:layout_marginRight="13dp"
+                android:textSize="16sp"
+                android:background="@drawable/select_slowblue2_btn"
+                android:textColor="#ffffff"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="领取" />
+            
+
+        </RelativeLayout>
+
+</LinearLayout>

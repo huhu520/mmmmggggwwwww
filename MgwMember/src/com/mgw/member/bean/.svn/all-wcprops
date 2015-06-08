@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/mgwAndroid/!svn/ver/157/membertest/MgwMember/src/com/mgw/member/bean
+END
+AppInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/mgw/member/bean/AppInfo.java
+END
+SkinInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/mgw/member/bean/SkinInfo.java
+END
+UserInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/mgwAndroid/!svn/ver/102/membertest/MgwMember/src/com/mgw/member/bean/UserInfoBean.java
+END
+AppUpdateInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/mgwAndroid/!svn/ver/140/membertest/MgwMember/src/com/mgw/member/bean/AppUpdateInfoBean.java
+END
+WebViewInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/mgwAndroid/!svn/ver/102/membertest/MgwMember/src/com/mgw/member/bean/WebViewInfo.java
+END
+DownloadInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/mgw/member/bean/DownloadInfo.java
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/task
+END
+LoadLocalBigImgTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/task/LoadLocalBigImgTask.java
+END
+LoadVideoImageTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/task/LoadVideoImageTask.java
+END
+LoadImageTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/task/LoadImageTask.java
+END
+DownloadImageTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/task/DownloadImageTask.java
+END
+AsyncImageLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/task/AsyncImageLoader.java
+END

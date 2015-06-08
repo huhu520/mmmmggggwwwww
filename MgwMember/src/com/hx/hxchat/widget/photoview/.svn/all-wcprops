@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/widget/photoview
+END
+SDK16.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/widget/photoview/SDK16.java
+END
+IPhotoView.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/widget/photoview/IPhotoView.java
+END
+PhotoViewAttacher.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/widget/photoview/PhotoViewAttacher.java
+END
+VersionedGestureDetector.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/widget/photoview/VersionedGestureDetector.java
+END
+PhotoView.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/widget/photoview/PhotoView.java
+END
+ScrollerProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/widget/photoview/ScrollerProxy.java
+END
+Compat.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/mgwAndroid/!svn/ver/101/membertest/MgwMember/src/com/hx/hxchat/widget/photoview/Compat.java
+END
