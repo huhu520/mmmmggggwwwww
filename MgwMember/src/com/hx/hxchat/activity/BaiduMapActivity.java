@@ -64,7 +64,7 @@ public class BaiduMapActivity extends HXBaseActivity {
 
 	EditText indexText = null;
 	int index = 0;
-	// LocationData locData = nullasda;
+	// LocationData locData = nullasdaasdada;
 	static BDLocation lastLocation = null;
 	public static BaiduMapActivity instance = null;
 	ProgressDialog progressDialog;
