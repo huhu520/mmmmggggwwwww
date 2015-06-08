@@ -109,14 +109,7 @@
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat"
             android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan" />
-        <activity
-            android:name="com.mgw.member.ui.activity.login.RegisterActivity"
-            android:configChanges="keyboardHidden|orientation"
-            android:exported="false"
-            android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat"
-            android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan" >
-        </activity>
+    
         <activity
             android:name="com.mgw.member.ui.activity.login.RegisterCodeActivity"
             android:configChanges="keyboardHidden|orientation"
